@@ -1987,6 +1987,17 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="LOADCELLAMPLFIER">
+<gates>
+</gates>
+<devices>
+<device name="" package="ICA3H">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="CONN_12X2" prefix="J">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
