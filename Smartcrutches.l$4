@@ -737,18 +737,6 @@
 </polygon>
 </package>
 <package name="IMU">
-<smd name="1" x="0.39" y="-5.15" dx="2.16" dy="2.29" layer="1"/>
-<smd name="2" x="0.39" y="-7.69" dx="2.16" dy="2.29" layer="1"/>
-<smd name="3" x="0.39" y="-10.23" dx="2.16" dy="2.29" layer="1"/>
-<smd name="4" x="0.39" y="-12.77" dx="2.16" dy="2.29" layer="1"/>
-<smd name="5" x="0.39" y="-15.31" dx="2.16" dy="2.29" layer="1"/>
-<smd name="6" x="0.39" y="-17.85" dx="2.16" dy="2.29" layer="1"/>
-<smd name="8" x="22.61" y="-15.31" dx="2.16" dy="2.29" layer="1"/>
-<smd name="9" x="22.61" y="-12.77" dx="2.16" dy="2.29" layer="1"/>
-<smd name="10" x="22.61" y="-10.23" dx="2.16" dy="2.29" layer="1"/>
-<smd name="11" x="22.61" y="-7.69" dx="2.16" dy="2.29" layer="1" rot="R180"/>
-<smd name="12" x="22.61" y="-5.15" dx="2.16" dy="2.29" layer="1" rot="R180"/>
-<smd name="7" x="22.61" y="-17.85" dx="2.16" dy="2.29" layer="1"/>
 <wire x1="0" y1="0" x2="0" y2="-23" width="0.127" layer="51"/>
 <wire x1="0" y1="-23" x2="23" y2="-23" width="0.127" layer="51"/>
 <wire x1="23" y1="-23" x2="23" y2="0" width="0.127" layer="51"/>
@@ -761,6 +749,30 @@
 <wire x1="23" y1="0" x2="23" y2="-3" width="0.8128" layer="21"/>
 <text x="0" y="1" size="1.27" layer="21">&gt;Name</text>
 <text x="0" y="-25" size="1.27" layer="27">&gt;value</text>
+<pad name="7" x="0" y="-17.78" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="8" x="0" y="-15.24" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="9" x="0" y="-12.7" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="10" x="0" y="-10.16" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="11" x="0" y="-7.62" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12" x="0" y="-5.08" drill="1.016" diameter="1.8796" rot="R180"/>
+<rectangle x1="-0.254" y1="-5.334" x2="0.254" y2="-4.826" layer="51" rot="R180"/>
+<rectangle x1="-0.254" y1="-7.874" x2="0.254" y2="-7.366" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="-10.414" x2="0.254" y2="-9.906" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="-12.954" x2="0.254" y2="-12.446" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="-15.494" x2="0.254" y2="-14.986" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="-18.034" x2="0.254" y2="-17.526" layer="51" rot="R90"/>
+<pad name="1" x="22.86" y="-17.907" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="2" x="22.86" y="-15.367" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="3" x="22.86" y="-12.827" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="4" x="22.86" y="-10.287" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="5" x="22.86" y="-7.747" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="6" x="22.86" y="-5.207" drill="1.016" diameter="1.8796" rot="R180"/>
+<rectangle x1="22.606" y1="-5.461" x2="23.114" y2="-4.953" layer="51" rot="R180"/>
+<rectangle x1="22.606" y1="-8.001" x2="23.114" y2="-7.493" layer="51" rot="R90"/>
+<rectangle x1="22.606" y1="-10.541" x2="23.114" y2="-10.033" layer="51" rot="R90"/>
+<rectangle x1="22.606" y1="-13.081" x2="23.114" y2="-12.573" layer="51" rot="R90"/>
+<rectangle x1="22.606" y1="-15.621" x2="23.114" y2="-15.113" layer="51" rot="R90"/>
+<rectangle x1="22.606" y1="-18.161" x2="23.114" y2="-17.653" layer="51" rot="R90"/>
 </package>
 <package name="DC-DCCONVERTER">
 <wire x1="-25.4" y1="10.16" x2="-25.4" y2="-30.48" width="0.127" layer="51"/>
@@ -1337,6 +1349,7 @@
 <pin name="+5V" x="-10.16" y="-5.08" length="middle"/>
 <pin name="GND" x="12.7" y="5.08" length="middle" rot="R180"/>
 <pin name="OUT" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<text x="-3.81" y="8.255" size="1.778" layer="95" font="vector">&gt;NAME</text>
 </symbol>
 <symbol name="ICA3H">
 <pin name="+SUPPLY" x="-15.24" y="-12.7" length="middle"/>
@@ -1914,11 +1927,39 @@
 </gates>
 <devices>
 <device name="IMU" package="IMU">
+<connects>
+<connect gate="G$1" pin="/SS" pad="9"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GND1" pad="1"/>
+<connect gate="G$1" pin="MISO" pad="11"/>
+<connect gate="G$1" pin="MOSI" pad="10"/>
+<connect gate="G$1" pin="RXD" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="12"/>
+<connect gate="G$1" pin="TXD" pad="8"/>
+<connect gate="G$1" pin="USBD+" pad="4"/>
+<connect gate="G$1" pin="USBD-" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+<connect gate="G$1" pin="VUSB" pad="5"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="" package="IMU">
+<connects>
+<connect gate="G$1" pin="/SS" pad="9"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GND1" pad="1"/>
+<connect gate="G$1" pin="MISO" pad="11"/>
+<connect gate="G$1" pin="MOSI" pad="10"/>
+<connect gate="G$1" pin="RXD" pad="7"/>
+<connect gate="G$1" pin="SCK" pad="12"/>
+<connect gate="G$1" pin="TXD" pad="8"/>
+<connect gate="G$1" pin="USBD+" pad="4"/>
+<connect gate="G$1" pin="USBD-" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+<connect gate="G$1" pin="VUSB" pad="5"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

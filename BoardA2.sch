@@ -186,6 +186,44 @@
 <pad name="6" x="4" y="8" drill="0.35" shape="square"/>
 <pad name="P$1" x="6.35" y="-6.35" drill="0.35" shape="square"/>
 </package>
+<package name="IMU">
+<wire x1="0" y1="0" x2="0" y2="-23" width="0.127" layer="51"/>
+<wire x1="0" y1="-23" x2="23" y2="-23" width="0.127" layer="51"/>
+<wire x1="23" y1="-23" x2="23" y2="0" width="0.127" layer="51"/>
+<wire x1="23" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="-23" x2="23" y2="-23" width="0.8128" layer="21"/>
+<wire x1="23" y1="-23" x2="23" y2="-20" width="0.8128" layer="21"/>
+<wire x1="0" y1="-23" x2="0" y2="-20" width="0.8128" layer="21"/>
+<wire x1="0" y1="-3" x2="0" y2="0" width="0.8128" layer="21"/>
+<wire x1="0" y1="0" x2="23" y2="0" width="0.8128" layer="21"/>
+<wire x1="23" y1="0" x2="23" y2="-3" width="0.8128" layer="21"/>
+<text x="0" y="1" size="1.27" layer="21">&gt;Name</text>
+<text x="0" y="-25" size="1.27" layer="27">&gt;value</text>
+<pad name="7" x="0" y="-17.78" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="8" x="0" y="-15.24" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="9" x="0" y="-12.7" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="10" x="0" y="-10.16" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="11" x="0" y="-7.62" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="12" x="0" y="-5.08" drill="1.016" diameter="1.8796" rot="R180"/>
+<rectangle x1="-0.254" y1="-5.334" x2="0.254" y2="-4.826" layer="51" rot="R180"/>
+<rectangle x1="-0.254" y1="-7.874" x2="0.254" y2="-7.366" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="-10.414" x2="0.254" y2="-9.906" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="-12.954" x2="0.254" y2="-12.446" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="-15.494" x2="0.254" y2="-14.986" layer="51" rot="R90"/>
+<rectangle x1="-0.254" y1="-18.034" x2="0.254" y2="-17.526" layer="51" rot="R90"/>
+<pad name="1" x="22.86" y="-17.907" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="2" x="22.86" y="-15.367" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="3" x="22.86" y="-12.827" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="4" x="22.86" y="-10.287" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="5" x="22.86" y="-7.747" drill="1.016" diameter="1.8796" rot="R180"/>
+<pad name="6" x="22.86" y="-5.207" drill="1.016" diameter="1.8796" rot="R180"/>
+<rectangle x1="22.606" y1="-5.461" x2="23.114" y2="-4.953" layer="51" rot="R180"/>
+<rectangle x1="22.606" y1="-8.001" x2="23.114" y2="-7.493" layer="51" rot="R90"/>
+<rectangle x1="22.606" y1="-10.541" x2="23.114" y2="-10.033" layer="51" rot="R90"/>
+<rectangle x1="22.606" y1="-13.081" x2="23.114" y2="-12.573" layer="51" rot="R90"/>
+<rectangle x1="22.606" y1="-15.621" x2="23.114" y2="-15.113" layer="51" rot="R90"/>
+<rectangle x1="22.606" y1="-18.161" x2="23.114" y2="-17.653" layer="51" rot="R90"/>
+</package>
 <package name="LOADCELLAMP2">
 <wire x1="-12.7" y1="1.905" x2="-12.7" y2="3.175" width="0.2032" layer="21"/>
 <wire x1="-12.7" y1="3.175" x2="-12.065" y2="3.81" width="0.2032" layer="21"/>
@@ -282,44 +320,6 @@
 <wire x1="14.5" y1="11.4" x2="-12.7" y2="11.4" width="0.127" layer="21"/>
 <wire x1="-12.7" y1="11.4" x2="-12.7" y2="11" width="0.127" layer="21"/>
 </package>
-<package name="IMU">
-<wire x1="0" y1="0" x2="0" y2="-23" width="0.127" layer="51"/>
-<wire x1="0" y1="-23" x2="23" y2="-23" width="0.127" layer="51"/>
-<wire x1="23" y1="-23" x2="23" y2="0" width="0.127" layer="51"/>
-<wire x1="23" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
-<wire x1="0" y1="-23" x2="23" y2="-23" width="0.8128" layer="21"/>
-<wire x1="23" y1="-23" x2="23" y2="-20" width="0.8128" layer="21"/>
-<wire x1="0" y1="-23" x2="0" y2="-20" width="0.8128" layer="21"/>
-<wire x1="0" y1="-3" x2="0" y2="0" width="0.8128" layer="21"/>
-<wire x1="0" y1="0" x2="23" y2="0" width="0.8128" layer="21"/>
-<wire x1="23" y1="0" x2="23" y2="-3" width="0.8128" layer="21"/>
-<text x="0" y="1" size="1.27" layer="21">&gt;Name</text>
-<text x="0" y="-25" size="1.27" layer="27">&gt;value</text>
-<pad name="7" x="0" y="-17.78" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="8" x="0" y="-15.24" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="9" x="0" y="-12.7" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="10" x="0" y="-10.16" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="11" x="0" y="-7.62" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="12" x="0" y="-5.08" drill="1.016" diameter="1.8796" rot="R180"/>
-<rectangle x1="-0.254" y1="-5.334" x2="0.254" y2="-4.826" layer="51" rot="R180"/>
-<rectangle x1="-0.254" y1="-7.874" x2="0.254" y2="-7.366" layer="51" rot="R90"/>
-<rectangle x1="-0.254" y1="-10.414" x2="0.254" y2="-9.906" layer="51" rot="R90"/>
-<rectangle x1="-0.254" y1="-12.954" x2="0.254" y2="-12.446" layer="51" rot="R90"/>
-<rectangle x1="-0.254" y1="-15.494" x2="0.254" y2="-14.986" layer="51" rot="R90"/>
-<rectangle x1="-0.254" y1="-18.034" x2="0.254" y2="-17.526" layer="51" rot="R90"/>
-<pad name="1" x="22.86" y="-17.907" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="2" x="22.86" y="-15.367" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="3" x="22.86" y="-12.827" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="4" x="22.86" y="-10.287" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="5" x="22.86" y="-7.747" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="6" x="22.86" y="-5.207" drill="1.016" diameter="1.8796" rot="R180"/>
-<rectangle x1="22.606" y1="-5.461" x2="23.114" y2="-4.953" layer="51" rot="R180"/>
-<rectangle x1="22.606" y1="-8.001" x2="23.114" y2="-7.493" layer="51" rot="R90"/>
-<rectangle x1="22.606" y1="-10.541" x2="23.114" y2="-10.033" layer="51" rot="R90"/>
-<rectangle x1="22.606" y1="-13.081" x2="23.114" y2="-12.573" layer="51" rot="R90"/>
-<rectangle x1="22.606" y1="-15.621" x2="23.114" y2="-15.113" layer="51" rot="R90"/>
-<rectangle x1="22.606" y1="-18.161" x2="23.114" y2="-17.653" layer="51" rot="R90"/>
-</package>
 </packages>
 <symbols>
 <symbol name="ECS-100XCLOCK">
@@ -331,22 +331,7 @@
 <pin name="+5V" x="-10.16" y="-5.08" length="middle"/>
 <pin name="GND" x="12.7" y="5.08" length="middle" rot="R180"/>
 <pin name="OUT" x="12.7" y="-2.54" length="middle" rot="R180"/>
-</symbol>
-<symbol name="LOADCELLAMP">
-<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
-<pin name="VDD" x="-17.78" y="5.08" length="middle"/>
-<pin name="VCC" x="-17.78" y="2.54" length="middle"/>
-<pin name="DAT" x="-17.78" y="0" length="middle"/>
-<pin name="CLK" x="-17.78" y="-2.54" length="middle"/>
-<pin name="GND" x="-17.78" y="-5.08" length="middle"/>
-<pin name="E+" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="E-" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="A-" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="A+" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="SD" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<text x="-3.81" y="8.255" size="1.778" layer="95" font="vector">&gt;NAME</text>
 </symbol>
 <symbol name="IMU">
 <wire x1="-10.16" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
@@ -365,8 +350,26 @@
 <pin name="USBD-" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="GND" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="GND1" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<text x="-10.16" y="10.16" size="1.778" layer="94">'&gt;NAME'</text>
-<text x="-10.16" y="-12.7" size="1.778" layer="94">'&gt;Value'</text>
+<text x="-10.16" y="10.16" size="1.524" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.524" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="LOADCELLAMP">
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<pin name="VDD" x="-17.78" y="5.08" length="middle"/>
+<pin name="VCC" x="-17.78" y="2.54" length="middle"/>
+<pin name="DAT" x="-17.78" y="0" length="middle"/>
+<pin name="CLK" x="-17.78" y="-2.54" length="middle"/>
+<pin name="GND" x="-17.78" y="-5.08" length="middle"/>
+<pin name="E+" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="E-" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="A-" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="A+" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="SD" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<text x="-12.954" y="8.382" size="1.524" layer="95">&gt;Name</text>
+<text x="-12.446" y="-9.906" size="1.524" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -394,30 +397,6 @@
 </gates>
 <devices>
 <device name="" package="ICA3H">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LOADCELLAMP">
-<gates>
-<gate name="G$1" symbol="LOADCELLAMP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LOADCELLAMP2">
-<connects>
-<connect gate="G$1" pin="A+" pad="7"/>
-<connect gate="G$1" pin="A-" pad="8"/>
-<connect gate="G$1" pin="CLK" pad="2"/>
-<connect gate="G$1" pin="DAT" pad="3"/>
-<connect gate="G$1" pin="E+" pad="10"/>
-<connect gate="G$1" pin="E-" pad="9"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="SD" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-<connect gate="G$1" pin="VDD" pad="5"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -462,6 +441,30 @@
 <connect gate="G$1" pin="USBD-" pad="3"/>
 <connect gate="G$1" pin="VIN" pad="6"/>
 <connect gate="G$1" pin="VUSB" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LOADCELLAMP">
+<gates>
+<gate name="G$1" symbol="LOADCELLAMP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LOADCELLAMP2">
+<connects>
+<connect gate="G$1" pin="A+" pad="7"/>
+<connect gate="G$1" pin="A-" pad="8"/>
+<connect gate="G$1" pin="CLK" pad="2"/>
+<connect gate="G$1" pin="DAT" pad="3"/>
+<connect gate="G$1" pin="E+" pad="10"/>
+<connect gate="G$1" pin="E-" pad="9"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SD" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1933,79 +1936,65 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </class>
 </classes>
 <parts>
-<part name="OSC" library="Smartcrutches" deviceset="CLOCK-ECS-100X" device=""/>
-<part name="IMU" library="ic-package" library_urn="urn:adsk.eagle:library:239" deviceset="DIL24" device="-4" value="AD7890-10"/>
+<part name="OSCILLATOR" library="Smartcrutches" deviceset="CLOCK-ECS-100X" device=""/>
+<part name="ADC" library="ic-package" library_urn="urn:adsk.eagle:library:239" deviceset="DIL24" device="-4" value="AD7890-10"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-50V-20%(PTH)" device="KIT-EZ" value="0.1 uf"/>
-<part name="U$1" library="Smartcrutches" deviceset="LOADCELLAMP" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
-<part name="U$2" library="Smartcrutches" deviceset="IMU" device=""/>
+<part name="IMU" library="Smartcrutches" deviceset="IMU" device="" value="TSS-EM/3Space"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_10X2" device=""/>
+<part name="LOADCELL_AMP" library="Smartcrutches" deviceset="LOADCELLAMP" device="" value="HX711"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="OSC" gate="G$1" x="-50.8" y="48.26"/>
-<instance part="IMU" gate="G$1" x="-5.08" y="48.26"/>
+<instance part="OSCILLATOR" gate="G$1" x="-50.8" y="48.26"/>
+<instance part="ADC" gate="G$1" x="-5.08" y="48.26"/>
 <instance part="C1" gate="G$1" x="10.16" y="40.64" rot="R90"/>
-<instance part="U$1" gate="G$1" x="-55.88" y="81.28"/>
 <instance part="J1" gate="G$1" x="35.56" y="68.58"/>
-<instance part="U$2" gate="G$1" x="-10.16" y="78.74"/>
+<instance part="IMU" gate="G$1" x="-7.62" y="83.82"/>
 <instance part="J2" gate="G$1" x="-88.9" y="60.96"/>
+<instance part="LOADCELL_AMP" gate="G$1" x="-55.88" y="86.36"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="5V" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="23"/>
-<wire x1="2.54" y1="60.96" x2="5.08" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="60.96" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="IMU" gate="G$1" pin="22"/>
-<wire x1="2.54" y1="58.42" x2="5.08" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="58.42" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="IMU" gate="G$1" pin="21"/>
-<wire x1="2.54" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="55.88" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="IMU" gate="G$1" pin="20"/>
-<wire x1="2.54" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="53.34" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IMU" gate="G$1" pin="19"/>
-<wire x1="2.54" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="50.8" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="IMU" gate="G$1" pin="18"/>
-<wire x1="2.54" y1="48.26" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
-<junction x="5.08" y="48.26"/>
-<junction x="5.08" y="50.8"/>
-<junction x="5.08" y="53.34"/>
-<junction x="5.08" y="55.88"/>
-<junction x="5.08" y="58.42"/>
-<junction x="5.08" y="60.96"/>
-<label x="5.08" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="23"/>
+<wire x1="2.54" y1="60.96" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="ADC" gate="G$1" pin="22"/>
+<wire x1="2.54" y1="58.42" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="ADC" gate="G$1" pin="21"/>
+<wire x1="2.54" y1="55.88" x2="2.54" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="ADC" gate="G$1" pin="20"/>
+<wire x1="2.54" y1="53.34" x2="2.54" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="ADC" gate="G$1" pin="19"/>
+<junction x="2.54" y="53.34"/>
+<junction x="2.54" y="55.88"/>
+<junction x="2.54" y="58.42"/>
+<junction x="2.54" y="60.96"/>
+<label x="2.54" y="55.88" size="1.778" layer="95" xref="yes"/>
+<junction x="2.54" y="50.8"/>
+<pinref part="ADC" gate="G$1" pin="18"/>
+<junction x="2.54" y="48.26"/>
+<wire x1="2.54" y1="50.8" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="OSC" gate="G$1" pin="+5V"/>
-<wire x1="-60.96" y1="43.18" x2="-63.5" y2="43.18" width="0.1524" layer="91"/>
-<label x="-63.5" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="OSCILLATOR" gate="G$1" pin="+5V"/>
+<label x="-60.96" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="-60.96" y="43.18"/>
 </segment>
 <segment>
-<pinref part="IMU" gate="G$1" pin="12"/>
-<wire x1="-12.7" y1="35.56" x2="-15.24" y2="35.56" width="0.1524" layer="91"/>
-<label x="-15.24" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
-<label x="-15.24" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="12"/>
+<label x="-12.7" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
+<junction x="-12.7" y="35.56"/>
 </segment>
 <segment>
-<wire x1="-12.7" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IMU" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="-73.66" y1="83.82" x2="-76.2" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
-<wire x1="-73.66" y1="86.36" x2="-76.2" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="83.82" x2="-76.2" y2="86.36" width="0.1524" layer="91"/>
-<label x="-76.2" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="2"/>
+<junction x="-12.7" y="60.96"/>
+<label x="-12.7" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -2013,50 +2002,61 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="22.86" y="70.104" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="VIN"/>
-<junction x="7.62" y="86.36"/>
-<label x="10.16" y="86.36" size="1.778" layer="95"/>
+<pinref part="IMU" gate="G$1" pin="VIN"/>
+<junction x="10.16" y="91.44"/>
+<label x="10.16" y="91.44" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="19"/>
 <junction x="-96.52" y="48.26"/>
 <label x="-101.6" y="48.26" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="VDD"/>
+<junction x="-73.66" y="91.44"/>
+<label x="-73.66" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="VCC"/>
+<junction x="-73.66" y="88.9"/>
+<wire x1="-73.66" y1="91.44" x2="-73.66" y2="88.9" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="13"/>
+<pinref part="ADC" gate="G$1" pin="13"/>
 <wire x1="2.54" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="35.56" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IMU" gate="G$1" pin="14"/>
+<pinref part="ADC" gate="G$1" pin="14"/>
 <wire x1="5.08" y1="38.1" x2="2.54" y2="38.1" width="0.1524" layer="91"/>
+<junction x="2.54" y="35.56"/>
+<junction x="2.54" y="38.1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="15"/>
+<pinref part="ADC" gate="G$1" pin="15"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
+<junction x="2.54" y="40.64"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="-12.7" y1="63.5" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
-<label x="-15.24" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="IMU" gate="G$1" pin="1"/>
+<label x="-12.7" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="1"/>
+<junction x="-12.7" y="63.5"/>
 </segment>
 <segment>
-<pinref part="IMU" gate="G$1" pin="3"/>
-<wire x1="-12.7" y1="58.42" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
-<label x="-15.24" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="3"/>
+<label x="-12.7" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
+<junction x="-12.7" y="58.42"/>
 </segment>
 <segment>
-<pinref part="OSC" gate="G$1" pin="GND"/>
-<wire x1="-38.1" y1="53.34" x2="-35.56" y2="53.34" width="0.1524" layer="91"/>
-<label x="-35.56" y="53.34" size="1.016" layer="95" xref="yes"/>
+<pinref part="OSCILLATOR" gate="G$1" pin="GND"/>
+<label x="-38.1" y="53.34" size="1.016" layer="95" xref="yes"/>
+<junction x="-38.1" y="53.34"/>
 </segment>
 <segment>
-<pinref part="IMU" gate="G$1" pin="24"/>
+<pinref part="ADC" gate="G$1" pin="24"/>
 <wire x1="2.54" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="63.5" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -2064,52 +2064,55 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="15.24" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="-73.66" y1="76.2" x2="-76.2" y2="76.2" width="0.1524" layer="91"/>
-<label x="-76.2" y="76.2" size="0.762" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <junction x="27.94" y="68.58"/>
 <label x="22.86" y="67.564" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<junction x="7.62" y="76.2"/>
-<label x="10.16" y="76.2" size="1.778" layer="95"/>
+<pinref part="IMU" gate="G$1" pin="GND"/>
+<junction x="10.16" y="81.28"/>
+<label x="10.16" y="81.28" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="17"/>
 <junction x="-96.52" y="50.8"/>
 <label x="-101.6" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="GND"/>
+<junction x="-73.66" y="81.28"/>
+<label x="-73.66" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="OSC" gate="G$1" pin="OUT"/>
+<pinref part="OSCILLATOR" gate="G$1" pin="OUT"/>
 <wire x1="-38.1" y1="45.72" x2="-35.56" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="45.72" x2="-35.56" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IMU" gate="G$1" pin="6"/>
+<pinref part="ADC" gate="G$1" pin="6"/>
 <wire x1="-35.56" y1="50.8" x2="-12.7" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-12.7" y="50.8"/>
 </segment>
 </net>
 <net name="UPPER1" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="16"/>
+<pinref part="ADC" gate="G$1" pin="16"/>
 <wire x1="2.54" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
+<junction x="2.54" y="43.18"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="17"/>
+<pinref part="ADC" gate="G$1" pin="17"/>
 <wire x1="2.54" y1="45.72" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
+<junction x="2.54" y="45.72"/>
 </segment>
 </net>
 <net name="DIN" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="11"/>
-<wire x1="-12.7" y1="38.1" x2="-15.24" y2="38.1" width="0.1524" layer="91"/>
-<label x="-15.24" y="38.1" size="0.762" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="11"/>
+<label x="-12.7" y="38.1" size="0.762" layer="95" rot="R180" xref="yes"/>
+<junction x="-12.7" y="38.1"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="16"/>
@@ -2119,9 +2122,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </net>
 <net name="DOUT" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="10"/>
-<wire x1="-12.7" y1="40.64" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
-<label x="-15.24" y="40.64" size="0.762" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="10"/>
+<label x="-12.7" y="40.64" size="0.762" layer="95" rot="R180" xref="yes"/>
+<junction x="-12.7" y="40.64"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="14"/>
@@ -2131,9 +2134,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </net>
 <net name="RFS" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="9"/>
-<wire x1="-12.7" y1="43.18" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
-<label x="-15.24" y="43.18" size="0.762" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="9"/>
+<label x="-12.7" y="43.18" size="0.762" layer="95" rot="R180" xref="yes"/>
+<junction x="-12.7" y="43.18"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="12"/>
@@ -2143,9 +2146,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </net>
 <net name="TFS" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="8"/>
-<wire x1="-12.7" y1="45.72" x2="-15.24" y2="45.72" width="0.1524" layer="91"/>
-<label x="-15.24" y="45.72" size="0.762" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="8"/>
+<label x="-12.7" y="45.72" size="0.762" layer="95" rot="R180" xref="yes"/>
+<junction x="-12.7" y="45.72"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="10"/>
@@ -2155,16 +2158,16 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </net>
 <net name="SCLK" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="7"/>
-<wire x1="-12.7" y1="48.26" x2="-15.24" y2="48.26" width="0.1524" layer="91"/>
-<label x="-15.24" y="48.26" size="0.762" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="7"/>
+<label x="-12.7" y="48.26" size="0.762" layer="95" rot="R180" xref="yes"/>
+<junction x="-12.7" y="48.26"/>
 </segment>
 </net>
 <net name="CONVST" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="5"/>
-<wire x1="-12.7" y1="53.34" x2="-15.24" y2="53.34" width="0.1524" layer="91"/>
-<label x="-15.24" y="53.34" size="0.762" layer="95" rot="R180" xref="yes"/>
+<pinref part="ADC" gate="G$1" pin="5"/>
+<label x="-12.7" y="53.34" size="0.762" layer="95" rot="R180" xref="yes"/>
+<junction x="-12.7" y="53.34"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="8"/>
@@ -2174,50 +2177,8 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="4"/>
+<pinref part="ADC" gate="G$1" pin="4"/>
 <wire x1="-12.7" y1="55.88" x2="-15.24" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="DAT"/>
-<wire x1="-73.66" y1="81.28" x2="-76.2" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="CLK"/>
-<wire x1="-73.66" y1="78.74" x2="-76.2" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="E+"/>
-<wire x1="-40.64" y1="86.36" x2="-38.1" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="E-"/>
-<wire x1="-40.64" y1="83.82" x2="-38.1" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A-"/>
-<wire x1="-40.64" y1="81.28" x2="-38.1" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A+"/>
-<wire x1="-40.64" y1="78.74" x2="-38.1" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="SD"/>
-<wire x1="-40.64" y1="76.2" x2="-38.1" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -2229,9 +2190,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="-81.28" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="TXD"/>
-<junction x="-25.4" y="76.2"/>
-<label x="-30.226" y="75.438" size="1.778" layer="95"/>
+<pinref part="IMU" gate="G$1" pin="TXD"/>
+<junction x="-22.86" y="81.28"/>
+<label x="-22.86" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -2241,9 +2202,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="-81.28" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="RXD"/>
-<junction x="-25.4" y="73.66"/>
-<label x="-29.972" y="73.152" size="1.778" layer="95"/>
+<pinref part="IMU" gate="G$1" pin="RXD"/>
+<junction x="-22.86" y="78.74"/>
+<label x="-22.86" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SLCK" class="0">
