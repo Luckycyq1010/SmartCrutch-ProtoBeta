@@ -164,6 +164,8 @@
 <hole x="40.64" y="3.81" drill="1"/>
 <hole x="42" y="97.5" drill="1"/>
 <hole x="2" y="97.5" drill="1"/>
+<dimension x1="0" y1="0" x2="44" y2="0" x3="22" y3="-3.81" textsize="1.778" layer="1"/>
+<dimension x1="44" y1="0" x2="44" y2="100.5" x3="48.26" y3="50.25" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
