@@ -4595,8 +4595,9 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device=""/>
 <part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="2N2222*" device=""/>
-<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7"/>
-<part name="R2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7"/>
+<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" value="1000ohm"/>
+<part name="R2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" value="10kohm"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF-50V-20%(PTH)" device="KIT-EZ" value="0.1uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -4612,10 +4613,11 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="J2" gate="G$1" x="-99.06" y="68.58"/>
 <instance part="J3" gate="G$1" x="25.4" y="86.36"/>
 <instance part="J4" gate="J$1" x="-63.5" y="66.04"/>
-<instance part="D1" gate="1" x="-78.74" y="25.4" rot="R90"/>
-<instance part="Q1" gate="G$1" x="-88.9" y="27.94"/>
-<instance part="R1" gate="G$1" x="-101.6" y="27.94" rot="R180"/>
-<instance part="R2" gate="G$1" x="-91.44" y="17.78"/>
+<instance part="D1" gate="1" x="101.6" y="81.28" rot="R90"/>
+<instance part="Q1" gate="G$1" x="99.06" y="71.12"/>
+<instance part="R1" gate="G$1" x="78.74" y="66.04" rot="R180"/>
+<instance part="R2" gate="G$1" x="93.98" y="58.42"/>
+<instance part="C2" gate="G$1" x="81.28" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -4678,6 +4680,16 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <pinref part="J4" gate="J$1" pin="2"/>
 <junction x="-55.88" y="63.5"/>
 <label x="-53.34" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D1" gate="1" pin="C"/>
+<junction x="101.6" y="83.82"/>
+<label x="81.28" y="86.36" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="101.6" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="83.82" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
+<junction x="81.28" y="86.36"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4745,11 +4757,10 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
-<wire x1="-86.36" y1="17.78" x2="-86.36" y2="22.86" width="0.1524" layer="91"/>
-<junction x="-86.36" y="22.86"/>
-<junction x="-86.36" y="17.78"/>
-<label x="-86.36" y="17.78" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="101.6" y1="58.42" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+<label x="101.6" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -4881,28 +4892,41 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <label x="31.496" y="83.058" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="6"/>
-<junction x="-88.9" y="66.04"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="B"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-91.44" y1="27.94" x2="-96.52" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="-96.52" y1="17.78" x2="-96.52" y2="27.94" width="0.1524" layer="91"/>
-<junction x="-91.44" y="27.94"/>
-<junction x="-96.52" y="27.94"/>
+<wire x1="88.9" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="58.42" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
+<junction x="88.9" y="66.04"/>
+<wire x1="88.9" y1="66.04" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOTOR" class="0">
+<net name="TEENSY6" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<junction x="-106.68" y="27.94"/>
-<label x="-106.68" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="73.66" y="66.04"/>
+<label x="73.66" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="6"/>
+<junction x="-88.9" y="66.04"/>
+<label x="-88.9" y="66.04" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR-" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="C"/>
+<pinref part="D1" gate="1" pin="A"/>
+<wire x1="101.6" y1="78.74" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="78.74" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
+<junction x="101.6" y="76.2"/>
+<junction x="81.28" y="76.2"/>
+<label x="81.28" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
