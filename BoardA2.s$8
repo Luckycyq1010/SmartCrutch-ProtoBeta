@@ -331,6 +331,7 @@
 <pin name="+5V" x="-10.16" y="-5.08" length="middle"/>
 <pin name="GND" x="12.7" y="5.08" length="middle" rot="R180"/>
 <pin name="OUT" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<text x="-3.81" y="8.255" size="1.778" layer="95" font="vector">&gt;NAME</text>
 </symbol>
 <symbol name="LOADCELLAMP">
 <wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
@@ -365,8 +366,8 @@
 <pin name="USBD-" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="GND" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="GND1" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<text x="-10.16" y="10.16" size="1.778" layer="94">'&gt;NAME'</text>
-<text x="-10.16" y="-12.7" size="1.778" layer="94">'&gt;Value'</text>
+<text x="-10.16" y="10.16" size="1.524" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-12.7" size="1.524" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1938,7 +1939,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-50V-20%(PTH)" device="KIT-EZ" value="0.1 uf"/>
 <part name="U$1" library="Smartcrutches" deviceset="LOADCELLAMP" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
-<part name="IMU" library="Smartcrutches" deviceset="IMU" device=""/>
+<part name="IMU" library="Smartcrutches" deviceset="IMU" device="" value="TSS-EM/3Space"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_10X2" device=""/>
 </parts>
 <sheets>
@@ -1986,8 +1987,8 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </segment>
 <segment>
 <pinref part="OSC" gate="G$1" pin="+5V"/>
-<wire x1="-60.96" y1="43.18" x2="-63.5" y2="43.18" width="0.1524" layer="91"/>
-<label x="-63.5" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-60.96" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+<junction x="-60.96" y="43.18"/>
 </segment>
 <segment>
 <pinref part="ADC" gate="G$1" pin="12"/>
@@ -2000,14 +2001,6 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <pinref part="ADC" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="-71.12" y1="88.9" x2="-73.66" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
-<wire x1="-71.12" y1="91.44" x2="-73.66" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-73.66" y1="88.9" x2="-73.66" y2="91.44" width="0.1524" layer="91"/>
-<label x="-73.66" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <junction x="27.94" y="71.12"/>
 <label x="22.86" y="70.104" size="1.778" layer="95"/>
@@ -2015,11 +2008,20 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <segment>
 <pinref part="IMU" gate="G$1" pin="VIN"/>
 <junction x="10.16" y="91.44"/>
+<label x="10.16" y="91.44" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="19"/>
 <junction x="-96.52" y="48.26"/>
 <label x="-101.6" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<junction x="-71.12" y="88.9"/>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
+<junction x="-71.12" y="91.44"/>
+<wire x1="-71.12" y1="88.9" x2="-71.12" y2="91.44" width="0.1524" layer="91"/>
+<label x="-71.12" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -2051,8 +2053,8 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </segment>
 <segment>
 <pinref part="OSC" gate="G$1" pin="GND"/>
-<wire x1="-38.1" y1="53.34" x2="-35.56" y2="53.34" width="0.1524" layer="91"/>
-<label x="-35.56" y="53.34" size="1.016" layer="95" xref="yes"/>
+<label x="-38.1" y="53.34" size="1.016" layer="95" xref="yes"/>
+<junction x="-38.1" y="53.34"/>
 </segment>
 <segment>
 <pinref part="ADC" gate="G$1" pin="24"/>
@@ -2063,11 +2065,6 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="15.24" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="-71.12" y1="81.28" x2="-73.66" y2="81.28" width="0.1524" layer="91"/>
-<label x="-73.66" y="81.28" size="0.762" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <junction x="27.94" y="68.58"/>
 <label x="22.86" y="67.564" size="1.778" layer="95"/>
@@ -2075,11 +2072,17 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <segment>
 <pinref part="IMU" gate="G$1" pin="GND"/>
 <junction x="10.16" y="81.28"/>
+<label x="10.16" y="81.28" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="17"/>
 <junction x="-96.52" y="50.8"/>
 <label x="-101.6" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<junction x="-71.12" y="81.28"/>
+<label x="-71.12" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -2176,48 +2179,6 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <wire x1="-12.7" y1="55.88" x2="-15.24" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="DAT"/>
-<wire x1="-71.12" y1="86.36" x2="-73.66" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="CLK"/>
-<wire x1="-71.12" y1="83.82" x2="-73.66" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="E+"/>
-<wire x1="-38.1" y1="91.44" x2="-35.56" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="E-"/>
-<wire x1="-38.1" y1="88.9" x2="-35.56" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A-"/>
-<wire x1="-38.1" y1="86.36" x2="-35.56" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="A+"/>
-<wire x1="-38.1" y1="83.82" x2="-35.56" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="SD"/>
-<wire x1="-38.1" y1="81.28" x2="-35.56" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="TXD" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
@@ -2229,6 +2190,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <segment>
 <pinref part="IMU" gate="G$1" pin="TXD"/>
 <junction x="-22.86" y="81.28"/>
+<label x="-22.86" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -2240,6 +2202,7 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <segment>
 <pinref part="IMU" gate="G$1" pin="RXD"/>
 <junction x="-22.86" y="78.74"/>
+<label x="-22.86" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SLCK" class="0">
@@ -2260,6 +2223,18 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <segment>
 <pinref part="J2" gate="G$1" pin="20"/>
 <junction x="-81.28" y="48.26"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="DAT"/>
+<junction x="-71.12" y="86.36"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CLK"/>
+<junction x="-71.12" y="83.82"/>
 </segment>
 </net>
 </nets>
