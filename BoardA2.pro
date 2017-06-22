@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/Naomi/OneDrive/summer17/SmartCrutch-ProtoBeta/BoardA2.brd
 
-Start at      : 12:50:11 (6/21/2017)
-End at        : 13:48:50 (6/21/2017)
-Elapsed time  : 00:58:37
+Start at      : 14:24:27 (6/22/2017)
+End at        : 14:24:29 (6/22/2017)
+Elapsed time  : 00:00:00
 
-Signals       :    21   RoutingGrid: 6 mil  Layers: 2
-Connections   :    18   predefined:  13 ( 0 Vias )
+Signals       :    18   RoutingGrid: 6 mil  Layers: 2
+Connections   :    30   predefined:  30 ( 0 Vias )
 
-Router memory :   969168
+Router memory :   1741740
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:04  00:00:00  00:00:00  00:00:00  00:00:00  00:58:33
+Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
 Number of Ripups  :         0         0         0         0         0         0
 max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0
 
-Routed            :         5         5         5         5         5         5
+Routed            :         0         0         0         0         0         0
 Vias              :         0         0         0         0         0         0
 Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 
+Final             : 100.0% finished
