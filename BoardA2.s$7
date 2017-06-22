@@ -2013,14 +2013,14 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="22.86" y="70.104" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<junction x="-96.52" y="68.58"/>
-<label x="-99.822" y="67.31" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="VIN"/>
 <junction x="7.62" y="86.36"/>
 <label x="10.16" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="19"/>
+<junction x="-96.52" y="48.26"/>
+<label x="-101.6" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -2074,14 +2074,14 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="22.86" y="67.564" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<junction x="-96.52" y="71.12"/>
-<label x="-102.362" y="70.104" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <junction x="7.62" y="76.2"/>
 <label x="10.16" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="17"/>
+<junction x="-96.52" y="50.8"/>
+<label x="-101.6" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
