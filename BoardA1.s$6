@@ -181,14 +181,14 @@
 <package name="ICA3H">
 <circle x="0" y="0" radius="10" width="0.127" layer="21"/>
 <hole x="9" y="0" drill="1"/>
-<pad name="5" x="-5" y="7" drill="0.35" shape="square"/>
-<pad name="4" x="-8" y="4" drill="0.35" shape="square"/>
-<pad name="3" x="-8" y="-3" drill="0.35" shape="square"/>
-<pad name="2" x="-6" y="-6" drill="0.35" shape="square"/>
-<pad name="1" x="8" y="-4" drill="0.35" shape="square"/>
-<pad name="7" x="7" y="6" drill="0.35" shape="square"/>
-<pad name="6" x="4" y="8" drill="0.35" shape="square"/>
-<pad name="P$1" x="6.35" y="-6.35" drill="0.35" shape="square"/>
+<pad name="5" x="-5" y="7" drill="1" shape="square"/>
+<pad name="4" x="-8" y="4" drill="1" shape="square"/>
+<pad name="3" x="-8" y="-3" drill="1" shape="square"/>
+<pad name="2" x="-6" y="-6" drill="1" shape="square"/>
+<pad name="1" x="8" y="-4" drill="1" shape="square"/>
+<pad name="7" x="7" y="6" drill="1" shape="square"/>
+<pad name="6" x="4" y="8" drill="1" shape="square"/>
+<pad name="P$1" x="6.35" y="-6.35" drill="1" shape="square"/>
 </package>
 <package name="1X03">
 <description>&lt;h3&gt;3-pin 0.1"-Pitch header&lt;/h3&gt;
@@ -2171,7 +2171,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J6" gate="G$1" x="78.74" y="-33.02"/>
 <instance part="J2" gate="G$1" x="134.62" y="2.54"/>
 <instance part="J4" gate="G$1" x="134.62" y="-25.4"/>
-<instance part="J7" gate="G$1" x="134.62" y="-48.26"/>
+<instance part="J7" gate="G$1" x="129.54" y="-48.26"/>
 </instances>
 <busses>
 </busses>

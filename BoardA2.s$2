@@ -8417,7 +8417,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="C1" gate="G$1" x="10.16" y="40.64" rot="R90"/>
 <instance part="J1" gate="G$1" x="35.56" y="68.58"/>
 <instance part="IMU" gate="G$1" x="-7.62" y="83.82"/>
-<instance part="LOADCELL_AMP" gate="G$1" x="-55.88" y="86.36"/>
+<instance part="LOADCELL_AMP" gate="G$1" x="-50.8" y="104.14"/>
 <instance part="J2" gate="G$1" x="-99.06" y="68.58"/>
 <instance part="J3" gate="G$1" x="25.4" y="86.36"/>
 <instance part="J4" gate="J$1" x="-63.5" y="66.04"/>
@@ -8478,11 +8478,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="VDD"/>
-<junction x="-73.66" y="91.44"/>
-<label x="-73.66" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
+<junction x="-68.58" y="109.22"/>
+<label x="-68.58" y="109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="VCC"/>
-<junction x="-73.66" y="88.9"/>
-<wire x1="-73.66" y1="91.44" x2="-73.66" y2="88.9" width="0.1524" layer="91"/>
+<junction x="-68.58" y="106.68"/>
+<wire x1="-68.58" y1="109.22" x2="-68.58" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J$1" pin="2"/>
@@ -8557,8 +8557,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="GND"/>
-<junction x="-73.66" y="81.28"/>
-<label x="-73.66" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+<junction x="-68.58" y="99.06"/>
+<label x="-68.58" y="99.06" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J$1" pin="3"/>
@@ -8752,13 +8752,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="DAT"/>
-<junction x="-73.66" y="86.36"/>
+<junction x="-68.58" y="104.14"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="CLK"/>
-<junction x="-73.66" y="83.82"/>
+<junction x="-68.58" y="101.6"/>
 </segment>
 </net>
 </nets>

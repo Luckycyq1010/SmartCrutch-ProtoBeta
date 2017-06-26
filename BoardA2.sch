@@ -9268,6 +9268,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device=""/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="PTH2" value="0.1uf"/>
 <part name="MOTOR" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="LOWERLOADCELL" library="SparkFun-Connectors" deviceset="CONN_05" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9289,6 +9290,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="D1" gate="1" x="78.74" y="91.44" rot="R90"/>
 <instance part="C2" gate="G$1" x="86.36" y="88.9"/>
 <instance part="MOTOR" gate="G$1" x="25.4" y="48.26"/>
+<instance part="LOWERLOADCELL" gate="G$1" x="50.8" y="50.8"/>
 </instances>
 <busses>
 </busses>

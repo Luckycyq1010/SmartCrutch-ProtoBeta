@@ -510,6 +510,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="1X02">
+<description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:2&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="Smartcrutches">
@@ -2076,8 +2106,8 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-08370" x="33.401" y="13.133" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="ADC" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL24-4" value="AD7890-10" x="15.582" y="17.353" rot="R180"/>
-<element name="J1" library="SparkFun-Connectors" package="2X3" value="FEMALE 2x3" x="9.8552" y="5.08">
-<attribute name="PROD_ID" value="CONN-11566" x="9.8552" y="5.08" size="1.778" layer="27" display="off"/>
+<element name="J1" library="SparkFun-Connectors" package="2X3" value="FEMALE 2x3" x="9.8552" y="4.953">
+<attribute name="PROD_ID" value="CONN-11566" x="9.8552" y="4.953" size="1.778" layer="27" display="off"/>
 </element>
 <element name="OSCILLATOR" library="Smartcrutches" package="ECS-100X" value="CLOCK-ECS-100X" x="36.077" y="59.422" rot="R90"/>
 <element name="IMU" library="Smartcrutches" package="IMU" value="TSS-EM/3Space" x="33.128" y="24.278" rot="R180"/>
@@ -2095,6 +2125,7 @@ design rules under a new name.</description>
 <element name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO18" value="2N2222" x="39.111" y="10.254"/>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" value="1N4004" x="32.794" y="1.016"/>
 <element name="C2" library="SparkFun-Passives" package="CAP-PTH-SMALL2" value="0.1uf" x="41.82" y="2.366" rot="R90"/>
+<element name="MOTOR" library="SparkFun-Connectors" package="1X02" value="" x="41.364" y="22.507" rot="R90"/>
 </elements>
 <signals>
 <signal name="5V">
@@ -2129,7 +2160,7 @@ design rules under a new name.</description>
 <wire x1="12.4769125" y1="9.9108" x2="8.59264375" y2="9.9108" width="1.778" layer="1"/>
 <wire x1="8.59264375" y1="9.9108" x2="6.32064375" y2="7.6388" width="1.778" layer="1"/>
 <wire x1="5.5" y1="7.035" x2="5.5" y2="7.08" width="1.778" layer="1"/>
-<wire x1="9.8552" y1="5.08" x2="5.5" y2="7.035" width="1.778" layer="1"/>
+<wire x1="9.8552" y1="4.953" x2="5.5" y2="7.035" width="1.778" layer="1"/>
 <wire x1="3.4470875" y1="20.0708" x2="2.4502" y2="21.0676875" width="1.778" layer="1"/>
 <wire x1="2.4502" y1="21.0676875" x2="2.4502" y2="21.5948" width="1.778" layer="1"/>
 <wire x1="2.4502" y1="21.5948" x2="1.905" y2="22.14" width="1.778" layer="1"/>
@@ -2175,7 +2206,7 @@ design rules under a new name.</description>
 <contactref element="J4" pad="3"/>
 <contactref element="T1" pad="1"/>
 <contactref element="R2" pad="1"/>
-<wire x1="12.3952" y1="5.08" x2="11.508" y2="1.905" width="1.778" layer="16"/>
+<wire x1="12.3952" y1="4.953" x2="11.508" y2="1.905" width="1.778" layer="16"/>
 <wire x1="11.508" y1="1.905" x2="3.095" y2="1.905" width="1.778" layer="16"/>
 <wire x1="3.095" y1="1.905" x2="1.905" y2="3.095" width="1.778" layer="16"/>
 <wire x1="4.67935625" y1="9.0612" x2="4.9412" y2="9.0612" width="1.778" layer="16"/>
