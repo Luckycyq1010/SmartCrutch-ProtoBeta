@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="196.850394" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1012,7 +1012,7 @@ design rules under a new name.</description>
 <wire x1="27.8384" y1="54.9834" x2="39.887" y2="67.032" width="0.1524" layer="1"/>
 <wire x1="27.8384" y1="53.83903125" x2="27.8384" y2="54.9834" width="0.1524" layer="1"/>
 <wire x1="17.36" y1="22.306" x2="17.36" y2="43.36063125" width="0.1524" layer="1"/>
-<wire x1="17.36" y1="43.36063125" x2="27.8384" y2="53.83903125" width="0.1524" layer="1"/>
+<wire x1="17.36" y1="43.36063125" x2="27.8384" y2="53.83903125" width="1.016" layer="1"/>
 </signal>
 <signal name="UPPER1">
 <contactref element="ADC" pad="16"/>
