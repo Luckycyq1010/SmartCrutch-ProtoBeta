@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -8398,7 +8398,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
 <part name="IMU" library="Smartcrutches" deviceset="IMU" device="" value="TSS-EM/3Space"/>
 <part name="LOADCELL_AMP" library="Smartcrutches" deviceset="LOADCELLAMP" device="" value="HX711"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="CONN_12" device=""/>
+<part name="TEENSY1-12" library="SparkFun-Connectors" deviceset="CONN_12" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" value="1kohm"/>
@@ -8418,8 +8418,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="J1" gate="G$1" x="35.56" y="68.58"/>
 <instance part="IMU" gate="G$1" x="-7.62" y="83.82"/>
 <instance part="LOADCELL_AMP" gate="G$1" x="-50.8" y="104.14"/>
-<instance part="J2" gate="G$1" x="-99.06" y="68.58"/>
-<instance part="J3" gate="G$1" x="25.4" y="86.36"/>
+<instance part="TEENSY1-12" gate="G$1" x="-99.06" y="68.58"/>
+<instance part="J3" gate="G$1" x="-93.98" y="38.1"/>
 <instance part="J4" gate="J$1" x="-63.5" y="66.04"/>
 <instance part="R1" gate="G$1" x="63.5" y="78.74"/>
 <instance part="R2" gate="G$1" x="71.12" y="71.12" rot="R90"/>
@@ -8612,11 +8612,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="-12.7" y="40.64" size="0.762" layer="95" rot="R180" xref="yes"/>
 <junction x="-12.7" y="40.64"/>
 </segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<junction x="-88.9" y="76.2"/>
-<label x="-88.392" y="75.438" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="RFS" class="0">
 <segment>
@@ -8626,8 +8621,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
-<junction x="30.48" y="91.44"/>
-<label x="30.988" y="90.678" size="1.778" layer="95"/>
+<junction x="-88.9" y="43.18"/>
+<label x="-85.852" y="44.958" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TFS" class="0">
@@ -8638,8 +8633,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
-<junction x="30.48" y="88.9"/>
-<label x="31.242" y="87.884" size="1.778" layer="95"/>
+<junction x="-88.9" y="40.64"/>
+<label x="-85.598" y="42.164" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -8668,12 +8663,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="TXD" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="TXD"/>
-<junction x="-22.86" y="81.28"/>
-<label x="-22.86" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="TEENSY1-12" gate="G$1" pin="4"/>
 <junction x="-88.9" y="81.28"/>
 <label x="-88.138" y="80.518" size="1.778" layer="95"/>
 <junction x="-88.9" y="60.96"/>
@@ -8681,12 +8671,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="RXD" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="RXD"/>
-<junction x="-22.86" y="78.74"/>
-<label x="-22.86" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="TEENSY1-12" gate="G$1" pin="3"/>
 <junction x="-88.9" y="78.74"/>
 <label x="-88.392" y="77.978" size="1.778" layer="95"/>
 <junction x="-88.9" y="58.42"/>
@@ -8695,8 +8680,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="SLCK" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<junction x="30.48" y="83.82"/>
-<label x="31.496" y="83.058" size="1.778" layer="95"/>
+<junction x="-88.9" y="35.56"/>
+<label x="-85.344" y="34.798" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -8730,23 +8715,16 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="55.88" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="6"/>
+<pinref part="TEENSY1-12" gate="G$1" pin="6"/>
 <junction x="-88.9" y="66.04"/>
 <label x="-88.9" y="66.04" size="0.762" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TEENSY1" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="TEENSY1-12" gate="G$1" pin="1"/>
 <junction x="-88.9" y="53.34"/>
 <label x="-88.9" y="53.34" size="0.762" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="TEENSY9" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="9"/>
-<junction x="-88.9" y="73.66"/>
-<label x="-88.9" y="73.66" size="0.762" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -8759,6 +8737,29 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="CLK"/>
 <junction x="-68.58" y="101.6"/>
+</segment>
+</net>
+<net name="IMU-RX" class="0">
+<segment>
+<pinref part="IMU" gate="G$1" pin="RXD"/>
+<junction x="-22.86" y="78.74"/>
+<label x="-22.86" y="78.74" size="0.762" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TEENSY1-12" gate="G$1" pin="10"/>
+<junction x="-88.9" y="76.2"/>
+</segment>
+</net>
+<net name="IMU-TX" class="0">
+<segment>
+<pinref part="TEENSY1-12" gate="G$1" pin="9"/>
+<junction x="-88.9" y="73.66"/>
+<label x="-88.9" y="73.66" size="0.762" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IMU" gate="G$1" pin="TXD"/>
+<junction x="-22.86" y="81.28"/>
+<label x="-22.86" y="81.28" size="0.762" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

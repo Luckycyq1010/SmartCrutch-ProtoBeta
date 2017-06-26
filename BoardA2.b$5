@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="196.850394" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1870,12 +1870,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CAP-PTH-SMALL">
+<package name="CAP-PTH-SMALL2">
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="0" drill="0.7" diameter="1.651"/>
 <pad name="2" x="2.54" y="0" drill="0.7" diameter="1.651"/>
-<text x="0.508" y="1.27" size="0.4064" layer="25">&gt;Name</text>
-<text x="0.254" y="-1.524" size="0.4064" layer="27">&gt;Value</text>
+<text x="-1.27" y="1.905" size="0.6096" layer="25">&gt;Name</text>
+<text x="-1.27" y="-2.54" size="0.6096" layer="27">&gt;Value</text>
 </package>
 </packages>
 </library>
@@ -2086,11 +2090,11 @@ design rules under a new name.</description>
 <element name="U$2" library="SparkFun-Hardware" package="STAND-OFF" value="" x="33.44" y="83"/>
 <element name="U$3" library="SparkFun-Hardware" package="STAND-OFF" value="" x="10.58" y="83"/>
 <element name="J4" library="SparkFun-Connectors" package="1X03" value="" x="5.5" y="4.54" rot="R90"/>
-<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/5" value="" x="-5" y="-15"/>
-<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/5" value="" x="-5" y="-30"/>
-<element name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO18" value="2N2222" x="-5" y="-45"/>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" value="1N4004" x="0" y="-65"/>
-<element name="C2" library="SparkFun-Passives" package="CAP-PTH-SMALL" value="" x="-5" y="-85"/>
+<element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/5" value="1kohm" x="30" y="5" rot="R90"/>
+<element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/5" value="10kohm" x="35" y="5" rot="R90"/>
+<element name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO18" value="2N2222" x="40" y="10"/>
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" value="1N4004" x="35" y="-10"/>
+<element name="C2" library="SparkFun-Passives" package="CAP-PTH-SMALL2" value="0.1uf" x="41.82" y="2.366" rot="R90"/>
 </elements>
 <signals>
 <signal name="5V">
@@ -2133,8 +2137,8 @@ design rules under a new name.</description>
 <wire x1="37.366" y1="54.323" x2="39.887" y2="51.802" width="0.1524" layer="16"/>
 <contactref element="D1" pad="C"/>
 <contactref element="C2" pad="1"/>
-<wire x1="-5.08" y1="-65" x2="-5" y2="-85" width="0" layer="19" extent="1-1"/>
-<wire x1="10.33" y1="2.25" x2="-5.08" y2="-65" width="0" layer="19" extent="16-16"/>
+<wire x1="29.92" y1="-10" x2="41.82" y2="2.366" width="0" layer="19" extent="1-1"/>
+<wire x1="10.33" y1="2.25" x2="29.92" y2="-10" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="ADC" pad="13"/>
@@ -2196,13 +2200,10 @@ design rules under a new name.</description>
 <wire x1="29.708" y1="64.483" x2="32.267" y2="67.042" width="0.1524" layer="1"/>
 <wire x1="33.401" y1="11.736" x2="30.4788" y2="11.736" width="0.1524" layer="1"/>
 <wire x1="30.4788" y1="11.736" x2="30.0228" y2="12.192" width="0.1524" layer="1"/>
-<<<<<<< HEAD
-=======
 <contactref element="T1" pad="1"/>
 <contactref element="R2" pad="1"/>
-<wire x1="-7.54" y1="-30" x2="-6.27" y2="-46.27" width="0" layer="19" extent="1-1"/>
-<wire x1="10.51603125" y1="3.6216" x2="-7.54" y2="-30" width="0" layer="19" extent="16-16"/>
->>>>>>> 329b16fdff00413dcb638ff5b697b524a604eec9
+<wire x1="35" y1="2.46" x2="38.73" y2="8.73" width="0" layer="19" extent="1-1"/>
+<wire x1="10.51603125" y1="3.6216" x2="35" y2="2.46" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 <contactref element="OSCILLATOR" pad="8"/>
@@ -2210,7 +2211,7 @@ design rules under a new name.</description>
 <wire x1="27.8384" y1="54.9834" x2="39.887" y2="67.032" width="0.1524" layer="1"/>
 <wire x1="27.8384" y1="53.83903125" x2="27.8384" y2="54.9834" width="0.1524" layer="1"/>
 <wire x1="17.36" y1="22.306" x2="17.36" y2="43.36063125" width="0.1524" layer="1"/>
-<wire x1="17.36" y1="43.36063125" x2="27.8384" y2="53.83903125" width="0.1524" layer="1"/>
+<wire x1="17.36" y1="43.36063125" x2="27.8384" y2="53.83903125" width="1.016" layer="1"/>
 </signal>
 <signal name="UPPER1">
 <contactref element="ADC" pad="16"/>
@@ -2220,10 +2221,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="DIN">
 <contactref element="ADC" pad="11"/>
-<contactref element="J2" pad="1"/>
 <wire x1="31.96096875" y1="38.3496" x2="32.6454" y2="39.03403125" width="0.1524" layer="16"/>
 <wire x1="32.6454" y1="39.03403125" x2="32.6454" y2="39.5354" width="0.1524" layer="16"/>
-<wire x1="32.6454" y1="39.5354" x2="37.25" y2="42.39" width="0.1524" layer="16"/>
 <wire x1="4.66" y1="22.306" x2="5.2823625" y2="22.306" width="0.1524" layer="16"/>
 <wire x1="5.2823625" y1="22.306" x2="21.3259625" y2="38.3496" width="0.1524" layer="16"/>
 <wire x1="21.3259625" y1="38.3496" x2="31.96096875" y2="38.3496" width="0.1524" layer="16"/>
@@ -2289,22 +2288,36 @@ design rules under a new name.</description>
 <signal name="SLCK">
 <contactref element="J3" pad="1"/>
 </signal>
-<signal name="N$5">
-<contactref element="J2" pad="6"/>
-</signal>
 <signal name="N$6">
 <contactref element="T1" pad="3"/>
 <contactref element="C2" pad="2"/>
 <contactref element="D1" pad="A"/>
-<wire x1="5.08" y1="-65" x2="-2.46" y2="-85" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.73" y1="-43.73" x2="5.08" y2="-65" width="0" layer="19" extent="1-1"/>
+<wire x1="40.08" y1="-10" x2="41.82" y2="4.906" width="0" layer="19" extent="1-1"/>
+<wire x1="41.27" y1="11.27" x2="40.08" y2="-10" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="2"/>
 <contactref element="T1" pad="2"/>
-<wire x1="-2.46" y1="-30" x2="-3.73" y2="-46.27" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.46" y1="-15" x2="-2.46" y2="-30" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="7.54" x2="41.27" y2="8.73" width="0" layer="19" extent="1-1"/>
+<wire x1="30" y1="7.54" x2="35" y2="7.54" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="TEENSY6">
+<contactref element="R1" pad="1"/>
+<contactref element="J2" pad="6"/>
+<wire x1="30" y1="2.46" x2="37.25" y2="29.69" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="TEENSY1">
+<contactref element="J2" pad="1"/>
+</signal>
+<signal name="TEENSY9">
+<contactref element="J2" pad="9"/>
+</signal>
+<signal name="N$5">
+<contactref element="LOADCELL_AMP" pad="3"/>
+</signal>
+<signal name="N$7">
+<contactref element="LOADCELL_AMP" pad="2"/>
 </signal>
 </signals>
 </board>
