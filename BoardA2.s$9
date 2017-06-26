@@ -2502,10 +2502,15 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-50V-20%(PTH)" device="KIT-EZ" value="0.1 uf"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
 <part name="IMU" library="Smartcrutches" deviceset="IMU" device="" value="TSS-EM/3Space"/>
+<<<<<<< HEAD
 <part name="LOADCELL_AMP" library="Smartcrutches" deviceset="LOADCELLAMP" device="" value="HX711"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
+=======
+<part name="J2" library="SparkFun-Connectors" deviceset="CONN_10X2" device=""/>
+<part name="LOADCELL_AMP" library="Smartcrutches" deviceset="LOADCELLAMP" device="" value="HX711"/>
+>>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
 </parts>
 <sheets>
 <sheet>
@@ -2517,10 +2522,15 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <instance part="C1" gate="G$1" x="10.16" y="40.64" rot="R90"/>
 <instance part="J1" gate="G$1" x="35.56" y="68.58"/>
 <instance part="IMU" gate="G$1" x="-7.62" y="83.82"/>
+<<<<<<< HEAD
 <instance part="LOADCELL_AMP" gate="G$1" x="-55.88" y="86.36"/>
 <instance part="J2" gate="G$1" x="-35.56" y="68.58"/>
 <instance part="J3" gate="G$1" x="25.4" y="86.36"/>
 <instance part="J4" gate="G$1" x="-60.96" y="71.12"/>
+=======
+<instance part="J2" gate="G$1" x="-88.9" y="60.96"/>
+<instance part="LOADCELL_AMP" gate="G$1" x="-55.88" y="86.36"/>
+>>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
 </instances>
 <busses>
 </busses>
@@ -2572,6 +2582,14 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <label x="10.16" y="91.44" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
+<<<<<<< HEAD
+=======
+<pinref part="J2" gate="G$1" pin="19"/>
+<junction x="-96.52" y="48.26"/>
+<label x="-101.6" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+>>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
 <pinref part="LOADCELL_AMP" gate="G$1" pin="VDD"/>
 <junction x="-73.66" y="91.44"/>
 <label x="-73.66" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -2754,6 +2772,7 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <junction x="-22.86" y="78.74"/>
 <label x="-22.86" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
+<<<<<<< HEAD
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <junction x="-30.48" y="68.58"/>
@@ -2765,6 +2784,27 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <pinref part="J3" gate="G$1" pin="1"/>
 <junction x="30.48" y="83.82"/>
 <label x="31.496" y="83.058" size="1.778" layer="95"/>
+=======
+</net>
+<net name="SLCK" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="6"/>
+<junction x="-81.28" y="66.04"/>
+<label x="-80.264" y="65.278" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLK" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="18"/>
+<junction x="-81.28" y="50.8"/>
+<label x="-80.01" y="49.53" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="20"/>
+<junction x="-81.28" y="48.26"/>
+>>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
 </segment>
 </net>
 </nets>

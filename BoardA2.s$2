@@ -8752,13 +8752,21 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="N$5" class="0">
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="DAT"/>
+<<<<<<< HEAD
 <junction x="-68.58" y="104.14"/>
+=======
+<junction x="-73.66" y="86.36"/>
+>>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="CLK"/>
+<<<<<<< HEAD
 <junction x="-68.58" y="101.6"/>
+=======
+<junction x="-73.66" y="83.82"/>
+>>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
 </segment>
 </net>
 </nets>

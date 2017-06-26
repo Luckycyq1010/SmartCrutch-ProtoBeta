@@ -9259,7 +9259,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
 <part name="IMU" library="Smartcrutches" deviceset="IMU" device="" value="TSS-EM/3Space"/>
 <part name="LOADCELL_AMP" library="Smartcrutches" deviceset="LOADCELLAMP" device="" value="HX711"/>
-<part name="J2" library="SparkFun-Connectors" deviceset="CONN_12" device=""/>
+<part name="TEENSY1-12" library="SparkFun-Connectors" deviceset="CONN_12" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="J4" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0204/5" value="1kohm"/>
@@ -9281,8 +9281,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="J1" gate="G$1" x="35.56" y="68.58"/>
 <instance part="IMU" gate="G$1" x="-7.62" y="83.82"/>
 <instance part="LOADCELL_AMP" gate="G$1" x="-50.8" y="104.14"/>
-<instance part="J2" gate="G$1" x="-99.06" y="68.58"/>
-<instance part="J3" gate="G$1" x="25.4" y="86.36"/>
+<instance part="TEENSY1-12" gate="G$1" x="-99.06" y="68.58"/>
+<instance part="J3" gate="G$1" x="-93.98" y="38.1"/>
 <instance part="J4" gate="J$1" x="-63.5" y="66.04"/>
 <instance part="R1" gate="G$1" x="63.5" y="78.74"/>
 <instance part="R2" gate="G$1" x="71.12" y="71.12" rot="R90"/>
@@ -9477,11 +9477,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="-12.7" y="40.64" size="0.762" layer="95" rot="R180" xref="yes"/>
 <junction x="-12.7" y="40.64"/>
 </segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<junction x="-88.9" y="76.2"/>
-<label x="-88.392" y="75.438" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="RFS" class="0">
 <segment>
@@ -9491,8 +9486,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="4"/>
-<junction x="30.48" y="91.44"/>
-<label x="30.988" y="90.678" size="1.778" layer="95"/>
+<junction x="-88.9" y="43.18"/>
+<label x="-85.852" y="44.958" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TFS" class="0">
@@ -9503,8 +9498,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="3"/>
-<junction x="30.48" y="88.9"/>
-<label x="31.242" y="87.884" size="1.778" layer="95"/>
+<junction x="-88.9" y="40.64"/>
+<label x="-85.598" y="42.164" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -9533,12 +9528,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="TXD" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="TXD"/>
-<junction x="-22.86" y="81.28"/>
-<label x="-22.86" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="TEENSY1-12" gate="G$1" pin="4"/>
 <junction x="-88.9" y="81.28"/>
 <label x="-88.138" y="80.518" size="1.778" layer="95"/>
 <junction x="-88.9" y="60.96"/>
@@ -9546,12 +9536,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="RXD" class="0">
 <segment>
-<pinref part="IMU" gate="G$1" pin="RXD"/>
-<junction x="-22.86" y="78.74"/>
-<label x="-22.86" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="TEENSY1-12" gate="G$1" pin="3"/>
 <junction x="-88.9" y="78.74"/>
 <label x="-88.392" y="77.978" size="1.778" layer="95"/>
 <junction x="-88.9" y="58.42"/>
@@ -9560,8 +9545,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <net name="SLCK" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
-<junction x="30.48" y="83.82"/>
-<label x="31.496" y="83.058" size="1.778" layer="95"/>
+<junction x="-88.9" y="35.56"/>
+<label x="-85.344" y="34.798" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -9595,23 +9580,16 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="55.88" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="6"/>
+<pinref part="TEENSY1-12" gate="G$1" pin="6"/>
 <junction x="-88.9" y="66.04"/>
 <label x="-88.9" y="66.04" size="0.762" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TEENSY1" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="TEENSY1-12" gate="G$1" pin="1"/>
 <junction x="-88.9" y="53.34"/>
 <label x="-88.9" y="53.34" size="0.762" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="TEENSY9" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="9"/>
-<junction x="-88.9" y="73.66"/>
-<label x="-88.9" y="73.66" size="0.762" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -9624,6 +9602,29 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="CLK"/>
 <junction x="-68.58" y="101.6"/>
+</segment>
+</net>
+<net name="IMU-RX" class="0">
+<segment>
+<pinref part="IMU" gate="G$1" pin="RXD"/>
+<junction x="-22.86" y="78.74"/>
+<label x="-22.86" y="78.74" size="0.762" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TEENSY1-12" gate="G$1" pin="10"/>
+<junction x="-88.9" y="76.2"/>
+</segment>
+</net>
+<net name="IMU-TX" class="0">
+<segment>
+<pinref part="TEENSY1-12" gate="G$1" pin="9"/>
+<junction x="-88.9" y="73.66"/>
+<label x="-88.9" y="73.66" size="0.762" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IMU" gate="G$1" pin="TXD"/>
+<junction x="-22.86" y="81.28"/>
+<label x="-22.86" y="81.28" size="0.762" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
