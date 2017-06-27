@@ -8419,10 +8419,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="IMU" gate="G$1" x="-7.62" y="83.82"/>
 <instance part="LOADCELL_AMP" gate="G$1" x="-50.8" y="104.14"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <instance part="TEENSY1-12" gate="G$1" x="-99.06" y="68.58"/>
 <instance part="TEENSY13-17" gate="G$1" x="-114.3" y="76.2"/>
 <instance part="TEENSYU" gate="J$1" x="-116.84" y="58.42"/>
 =======
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <instance part="J2" gate="G$1" x="-99.06" y="68.58"/>
 <instance part="J3" gate="G$1" x="25.4" y="86.36"/>
 <instance part="J4" gate="J$1" x="-63.5" y="66.04"/>
@@ -8490,7 +8493,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="-68.58" y="106.68"/>
 <wire x1="-68.58" y1="109.22" x2="-68.58" y2="106.68" width="0.1524" layer="91"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </segment>
 <segment>
 <pinref part="J4" gate="J$1" pin="2"/>
@@ -8791,6 +8797,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 =======
 <junction x="-73.66" y="86.36"/>
 >>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
+<<<<<<< HEAD
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </segment>
 </net>
@@ -8805,6 +8812,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="TEENSY1-12" gate="G$1" pin="5"/>
 <junction x="-88.9" y="63.5"/>
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -8818,6 +8827,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 =======
 <junction x="-73.66" y="83.82"/>
 >>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
+<<<<<<< HEAD
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
+=======
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </segment>
 </net>

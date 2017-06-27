@@ -1872,9 +1872,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 <<<<<<< HEAD
 <package name="CAP-PTH-SMALL2">
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <package name="CAP-PTH-SMALL2">
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
@@ -1901,6 +1904,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0.508" y="1.27" size="0.4064" layer="25">&gt;Name</text>
 <text x="0.254" y="-1.524" size="0.4064" layer="27">&gt;Value</text>
 >>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
+<<<<<<< HEAD
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
+=======
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </package>
 </packages>
@@ -2099,9 +2105,12 @@ design rules under a new name.</description>
 </element>
 <element name="ADC" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL24-4" value="AD7890-10" x="15.582" y="17.353" rot="R180"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <element name="J1" library="SparkFun-Connectors" package="2X3" value="FEMALE 2x3" x="9.857" y="5.091">
 <attribute name="PROD_ID" value="CONN-11566" x="9.857" y="5.091" size="1.778" layer="27" display="off"/>
 =======
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <element name="J1" library="SparkFun-Connectors" package="2X3" value="FEMALE 2x3" x="11" y="2.25">
 <attribute name="PROD_ID" value="CONN-11566" x="11" y="2.25" size="1.778" layer="27" display="off"/>
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
@@ -2118,6 +2127,7 @@ design rules under a new name.</description>
 <element name="U$3" library="SparkFun-Hardware" package="STAND-OFF" value="" x="10.58" y="83"/>
 <element name="J4" library="SparkFun-Connectors" package="1X03" value="" x="5.5" y="4.54" rot="R90"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/5" value="1kohm" x="29.619" y="6.27" rot="R90"/>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/5" value="10kohm" x="34.492" y="6.524" rot="R90"/>
 <element name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO18" value="2N2222" x="39.111" y="10.254"/>
@@ -2125,6 +2135,8 @@ design rules under a new name.</description>
 <element name="C2" library="SparkFun-Passives" package="CAP-PTH-SMALL2" value="0.1uf" x="41.82" y="2.366" rot="R90"/>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/5" value="1kohm" x="30" y="5" rot="R90"/>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0204/5" value="10kohm" x="35" y="5" rot="R90"/>
 <element name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO18" value="2N2222" x="40" y="10"/>
@@ -2137,6 +2149,9 @@ design rules under a new name.</description>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" value="1N4004" x="0" y="-65"/>
 <element name="C2" library="SparkFun-Passives" package="CAP-PTH-SMALL" value="" x="-5" y="-85"/>
 >>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
+<<<<<<< HEAD
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
+=======
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </elements>
 <signals>
@@ -2158,6 +2173,7 @@ design rules under a new name.</description>
 <<<<<<< HEAD
 <contactref element="D1" pad="C"/>
 <contactref element="C2" pad="1"/>
+<<<<<<< HEAD
 <wire x1="26.67" y1="56.863" x2="26.67" y2="56.896" width="0.1524" layer="1"/>
 <wire x1="24.472" y1="12.273" x2="27.714" y2="1.016" width="1.778" layer="1"/>
 <wire x1="27.012" y1="12.273" x2="24.472" y2="12.273" width="1.778" layer="1"/>
@@ -2199,6 +2215,8 @@ design rules under a new name.</description>
 <<<<<<< HEAD
 <contactref element="D1" pad="C"/>
 <contactref element="C2" pad="1"/>
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <wire x1="26.67" y1="54.323" x2="37.366" y2="54.323" width="1.778" layer="1"/>
 <wire x1="37.366" y1="54.323" x2="39.887" y2="51.802" width="1.778" layer="1"/>
 <wire x1="9.43764375" y1="30.0438" x2="9.1758" y2="30.0438" width="1.778" layer="16"/>
@@ -2261,13 +2279,20 @@ design rules under a new name.</description>
 <wire x1="-5.08" y1="-65" x2="-5" y2="-85" width="0" layer="19" extent="1-1"/>
 <wire x1="10.33" y1="2.25" x2="-5.08" y2="-65" width="0" layer="19" extent="16-16"/>
 >>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
+<<<<<<< HEAD
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
+=======
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </signal>
 <signal name="N$1">
 <contactref element="ADC" pad="13"/>
 <contactref element="ADC" pad="14"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="1.612" y1="12.273" x2="4.152" y2="12.273" width="1.778" layer="1"/>
+=======
+<wire x1="1.612" y1="12.273" x2="4.152" y2="12.273" width="0.1524" layer="1"/>
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 =======
 <wire x1="1.612" y1="12.273" x2="4.152" y2="12.273" width="0.1524" layer="1"/>
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
@@ -2276,10 +2301,13 @@ design rules under a new name.</description>
 <contactref element="ADC" pad="15"/>
 <contactref element="C1" pad="1"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="33.401" y1="14.53" x2="8.949" y2="14.53" width="1.27" layer="16"/>
 <wire x1="8.949" y1="14.53" x2="6.692" y2="12.273" width="1.27" layer="16"/>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <wire x1="8.89" y1="14.224" x2="7.112" y2="12.446" width="0.1524" layer="1"/>
 <wire x1="33.782" y1="14.224" x2="8.89" y2="14.224" width="0.1524" layer="1"/>
 <wire x1="7.112" y1="12.446" x2="6.692" y2="12.273" width="0.1524" layer="1"/>
@@ -2290,6 +2318,9 @@ design rules under a new name.</description>
 <wire x1="10" y1="15" x2="32.931" y2="15" width="0.1524" layer="16"/>
 <wire x1="32.931" y1="15" x2="33.401" y2="14.53" width="0.1524" layer="16"/>
 >>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
+<<<<<<< HEAD
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
+=======
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </signal>
 <signal name="GND">
@@ -2302,6 +2333,7 @@ design rules under a new name.</description>
 <contactref element="LOADCELL_AMP" pad="1"/>
 <contactref element="OSCILLATOR" pad="7"/>
 <contactref element="J4" pad="3"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <contactref element="T1" pad="1"/>
 <contactref element="R2" pad="1"/>
@@ -2349,6 +2381,8 @@ design rules under a new name.</description>
 <wire x1="15" y1="45" x2="11.08864375" y2="40.2038" width="0" layer="19" extent="16-16"/>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <wire x1="30.0228" y1="22.2504" x2="29.552" y2="22.433" width="0.1524" layer="1"/>
 <contactref element="T1" pad="1"/>
 <contactref element="R2" pad="1"/>
@@ -2436,16 +2470,23 @@ design rules under a new name.</description>
 <wire x1="10.51603125" y1="3.6216" x2="-7.54" y2="-30" width="0" layer="19" extent="16-16"/>
 >>>>>>> 329b16fdff00413dcb638ff5b697b524a604eec9
 >>>>>>> a3437267a48cba37535a4f5d507f43e1bef8e677
+<<<<<<< HEAD
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
+=======
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </signal>
 <signal name="N$4">
 <contactref element="OSCILLATOR" pad="8"/>
 <contactref element="ADC" pad="6"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="28.6512" y1="55.7962" x2="39.887" y2="67.032" width="1.778" layer="16"/>
 <wire x1="28.6512" y1="53.50235625" x2="28.6512" y2="55.7962" width="1.778" layer="16"/>
 <wire x1="16.852" y1="22.433" x2="16.852" y2="41.70315625" width="1.778" layer="16"/>
 <wire x1="16.852" y1="41.70315625" x2="28.6512" y2="53.50235625" width="1.778" layer="16"/>
+=======
+<wire x1="16.852" y1="22.433" x2="39.887" y2="67.032" width="0" layer="19" extent="1-1"/>
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 =======
 <wire x1="16.852" y1="22.433" x2="39.887" y2="67.032" width="0" layer="19" extent="1-1"/>
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
@@ -2463,6 +2504,7 @@ design rules under a new name.</description>
 <contactref element="ADC" pad="10"/>
 <contactref element="J2" pad="2"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="33.790825" y1="43.6582" x2="34.7282" y2="42.720825" width="1.016" layer="1"/>
 <wire x1="6.692" y1="22.433" x2="6.70370625" y2="22.433" width="1.016" layer="1"/>
 <wire x1="34.7282" y1="42.720825" x2="34.7282" y2="42.3718" width="1.016" layer="1"/>
@@ -2470,6 +2512,8 @@ design rules under a new name.</description>
 <wire x1="6.70370625" y1="22.433" x2="27.92890625" y2="43.6582" width="1.016" layer="1"/>
 <wire x1="27.92890625" y1="43.6582" x2="33.790825" y2="43.6582" width="1.016" layer="1"/>
 =======
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <wire x1="36.42935625" y1="40.4088" x2="35.2688" y2="41.56935625" width="1.778" layer="16"/>
 <wire x1="37.25" y1="39.85" x2="36.6912" y2="40.4088" width="1.778" layer="16"/>
 <wire x1="36.6912" y1="40.4088" x2="36.42935625" y2="40.4088" width="1.778" layer="16"/>
@@ -2479,34 +2523,47 @@ design rules under a new name.</description>
 <wire x1="7.5302" y1="23.2712" x2="6.692" y2="22.433" width="1.778" layer="16"/>
 <wire x1="35" y1="45" x2="28.7318875" y2="45" width="1.778" layer="16"/>
 <wire x1="28.7318875" y1="45" x2="7.5302" y2="23.7983125" width="1.778" layer="16"/>
+<<<<<<< HEAD
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
+=======
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </signal>
 <signal name="RFS">
 <contactref element="ADC" pad="9"/>
 <contactref element="J3" pad="4"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="5.5" y1="43.18" x2="5.5" y2="42.903025" width="1.016" layer="16"/>
 <wire x1="5.5" y1="42.903025" x2="3.8998" y2="41.302825" width="1.016" layer="16"/>
 <wire x1="3.8998" y1="41.302825" x2="3.8998" y2="27.7652" width="1.016" layer="16"/>
 <wire x1="3.8998" y1="27.7652" x2="9.232" y2="22.433" width="1.016" layer="16"/>
 =======
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <wire x1="8.89" y1="26.67" x2="8.89" y2="23.114" width="0.1524" layer="1"/>
 <wire x1="7.112" y1="28.448" x2="8.89" y2="26.67" width="0.1524" layer="1"/>
 <wire x1="7.112" y1="40.894" x2="7.112" y2="28.448" width="0.1524" layer="1"/>
 <wire x1="5.334" y1="42.672" x2="7.112" y2="40.894" width="0.1524" layer="1"/>
 <wire x1="8.89" y1="23.114" x2="9.232" y2="22.433" width="0.1524" layer="1"/>
 <wire x1="5.334" y1="42.672" x2="5.5" y2="43.18" width="0.1524" layer="1"/>
+<<<<<<< HEAD
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
+=======
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </signal>
 <signal name="TFS">
 <contactref element="ADC" pad="8"/>
 <contactref element="J3" pad="3"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="5.5" y1="40.64" x2="7.348975" y2="40.64" width="1.016" layer="16"/>
 <wire x1="7.348975" y1="40.64" x2="7.348975" y2="27.034325" width="1.016" layer="16"/>
 <wire x1="9.9432" y1="24.4401" x2="9.9432" y2="24.2618" width="1.016" layer="16"/>
 <wire x1="9.9432" y1="24.2618" x2="11.772" y2="22.433" width="1.016" layer="16"/>
 <wire x1="7.348975" y1="27.034325" x2="9.9432" y2="24.4401" width="1.016" layer="16"/>
+=======
+<wire x1="11.772" y1="22.433" x2="5.5" y2="40.64" width="0" layer="19" extent="1-1"/>
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 =======
 <wire x1="11.772" y1="22.433" x2="5.5" y2="40.64" width="0" layer="19" extent="1-1"/>
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
@@ -2524,37 +2581,52 @@ design rules under a new name.</description>
 <contactref element="IMU" pad="8"/>
 <contactref element="J2" pad="4"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="34.7282" y1="37.640825" x2="34.7282" y2="37.2918" width="1.016" layer="1"/>
 <wire x1="34.7282" y1="37.2918" x2="37.25" y2="34.77" width="1.016" layer="1"/>
 <wire x1="33.128" y1="39.518" x2="33.128" y2="39.241025" width="1.016" layer="1"/>
 <wire x1="33.128" y1="39.241025" x2="34.7282" y2="37.640825" width="1.016" layer="1"/>
 =======
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <wire x1="36.42935625" y1="35.3288" x2="36.6912" y2="35.3288" width="1.778" layer="16"/>
 <wire x1="36.6912" y1="35.3288" x2="37.25" y2="34.77" width="1.778" layer="16"/>
 <wire x1="31.477" y1="39.518" x2="32.24015625" y2="39.518" width="1.778" layer="16"/>
 <wire x1="32.24015625" y1="39.518" x2="36.42935625" y2="35.3288" width="1.778" layer="16"/>
+<<<<<<< HEAD
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
+=======
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </signal>
 <signal name="RXD">
 <contactref element="IMU" pad="7"/>
 <contactref element="J2" pad="3"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <wire x1="34.7282" y1="40.180825" x2="34.7282" y2="39.8318" width="1.016" layer="1"/>
 <wire x1="34.7282" y1="39.8318" x2="37.25" y2="37.31" width="1.016" layer="1"/>
 <wire x1="33.128" y1="42.058" x2="33.128" y2="41.781025" width="1.016" layer="1"/>
 <wire x1="33.128" y1="41.781025" x2="34.7282" y2="40.180825" width="1.016" layer="1"/>
 =======
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <wire x1="36.42935625" y1="37.8688" x2="36.6912" y2="37.8688" width="1.778" layer="1"/>
 <wire x1="36.6912" y1="37.8688" x2="37.25" y2="37.31" width="1.778" layer="1"/>
 <wire x1="31.477" y1="42.058" x2="32.24015625" y2="42.058" width="1.778" layer="1"/>
 <wire x1="32.24015625" y1="42.058" x2="36.42935625" y2="37.8688" width="1.778" layer="1"/>
+<<<<<<< HEAD
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
+=======
 >>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </signal>
 <signal name="SLCK">
 <contactref element="J3" pad="1"/>
 </signal>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 <signal name="N$6">
 <contactref element="T1" pad="3"/>
 <contactref element="C2" pad="2"/>
@@ -2585,6 +2657,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$5">
 <contactref element="LOADCELL_AMP" pad="3"/>
+<<<<<<< HEAD
+=======
+</signal>
+<signal name="N$7">
+<contactref element="LOADCELL_AMP" pad="2"/>
+>>>>>>> 508c312094766132f817c597d853aec2ccf0e132
 </signal>
 <signal name="N$7">
 <contactref element="LOADCELL_AMP" pad="2"/>
