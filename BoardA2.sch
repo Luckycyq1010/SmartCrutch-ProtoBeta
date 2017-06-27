@@ -8474,7 +8474,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="T1" gate="G$1" x="76.2" y="78.74"/>
 <instance part="D1" gate="1" x="78.74" y="91.44" rot="R90"/>
 <instance part="C2" gate="G$1" x="86.36" y="88.9"/>
-<instance part="MOTOR" gate="G$1" x="58.42" y="91.44"/>
+<instance part="MOTOR" gate="G$1" x="60.96" y="91.44"/>
 <instance part="LOWERLOADCELL" gate="G$1" x="-91.44" y="106.68"/>
 </instances>
 <busses>
