@@ -8475,7 +8475,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="D1" gate="1" x="78.74" y="91.44" rot="R90"/>
 <instance part="C2" gate="G$1" x="86.36" y="88.9"/>
 <instance part="MOTOR" gate="G$1" x="60.96" y="91.44"/>
-<instance part="LOWERLOADCELL" gate="G$1" x="-91.44" y="106.68"/>
+<instance part="LOWERLOADCELL" gate="G$1" x="-20.32" y="104.14" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -8596,11 +8596,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="15.24" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<junction x="27.94" y="68.58"/>
-<label x="22.86" y="67.564" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IMU" gate="G$1" pin="GND"/>
 <junction x="10.16" y="81.28"/>
 <label x="10.16" y="81.28" size="1.016" layer="95" xref="yes"/>
@@ -8623,6 +8618,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="78.74" y1="66.04" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <junction x="78.74" y="66.04"/>
 <label x="78.74" y="63.5" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<junction x="43.18" y="71.12"/>
+<label x="45.72" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -8810,9 +8810,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="0" y="43.18" size="0.762" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<junction x="43.18" y="71.12"/>
-<label x="43.18" y="71.12" size="0.762" layer="95" xref="yes"/>
+<pinref part="J1" gate="G$1" pin="6"/>
+<junction x="43.18" y="66.04"/>
+<label x="45.72" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC-CH2" class="0">
@@ -8824,7 +8824,42 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <junction x="43.18" y="68.58"/>
-<label x="43.18" y="68.58" size="0.762" layer="95" xref="yes"/>
+<label x="45.72" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E+" class="0">
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="E+"/>
+<pinref part="LOWERLOADCELL" gate="G$1" pin="5"/>
+<wire x1="-35.56" y1="109.22" x2="-27.94" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="E-"/>
+<pinref part="LOWERLOADCELL" gate="G$1" pin="4"/>
+<wire x1="-35.56" y1="106.68" x2="-27.94" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="A-"/>
+<pinref part="LOWERLOADCELL" gate="G$1" pin="3"/>
+<wire x1="-35.56" y1="104.14" x2="-27.94" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="A+"/>
+<pinref part="LOWERLOADCELL" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="101.6" x2="-27.94" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="SD"/>
+<pinref part="LOWERLOADCELL" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="99.06" x2="-27.94" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

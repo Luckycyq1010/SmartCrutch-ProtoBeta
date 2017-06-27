@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/Naomi/OneDrive/summer17/SmartCrutch-ProtoBeta/BoardA2.brd
 
-Start at      : 11:31:42 (6/26/2017)
-End at        : 11:32:25 (6/26/2017)
-Elapsed time  : 00:00:11
+Start at      : 12:14:17 (6/27/2017)
+End at        : 12:14:41 (6/27/2017)
+Elapsed time  : 00:00:14
 
-Signals       :    24   RoutingGrid: 6 mil  Layers: 2
-Connections   :    38   predefined:  2 ( 0 Vias )
+Signals       :    28   RoutingGrid: 6 mil  Layers: 2
+Connections   :    48   predefined:  0 ( 0 Vias )
 
-Router memory :   11700
+Router memory :   12512
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8
 
-Time per pass     :  00:00:10  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
+Time per pass     :  00:00:13  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01
 Number of Ripups  :         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         1         0         0         0         0         0         0         0         0
+max. Level        :         0         0         0         0         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0         0         0         0         0
 
-Routed            :        22        32        22        22        22        22        22        22        22        22
-Vias              :         0         0         0         0         0         0         0         0         0         0
-Resolution        :    63.2 %    89.5 %    63.2 %    63.2 %    63.2 %    63.2 %    63.2 %    63.2 %    63.2 %    63.2 %
+Routed            :        48        48        31        33        33        33        33        33        33        33
+Vias              :         0         0         5         4         3         3         4         3         3         3
+Resolution        :   100.0 %   100.0 %    64.6 %    68.8 %    68.8 %    68.8 %    68.8 %    68.8 %    68.8 %    68.8 %
 
-Final             : 63.2% finished
+Final             : 68.8% finished
