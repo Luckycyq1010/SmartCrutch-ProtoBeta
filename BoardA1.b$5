@@ -157,14 +157,11 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="44" y2="0" width="0" layer="20"/>
-<wire x1="44" y1="93" x2="44" y2="100.5" width="0" layer="20"/>
-<wire x1="44" y1="100.5" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="93" width="0" layer="20"/>
 <dimension x1="0" y1="0" x2="44" y2="0" x3="22" y3="-3.81" textsize="1.778" layer="1"/>
-<dimension x1="44" y1="0" x2="44" y2="100.5" x3="48.26" y3="50.25" textsize="1.778" layer="1"/>
 <wire x1="44" y1="0" x2="44" y2="93" width="0" layer="20"/>
 <wire x1="44" y1="93" x2="0" y2="93" width="0" layer="20"/>
 <wire x1="0" y1="93" x2="0" y2="0" width="0" layer="20"/>
+<dimension x1="0" y1="93" x2="0" y2="0" x3="-11.43" y3="46.5" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -176,42 +173,17 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CAP-PTH-SMALL-KIT">
-<description>&lt;h3&gt;CAP-PTH-SMALL-KIT&lt;/h3&gt;
-Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="21"/>
-<wire x1="-2.667" y1="1.27" x2="2.667" y2="1.27" width="0.254" layer="21"/>
-<wire x1="2.667" y1="1.27" x2="2.667" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="2.667" y1="-1.27" x2="-2.667" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="-2.667" y1="-1.27" x2="-2.667" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
-<pad name="2" x="1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
-<polygon width="0.127" layer="30">
-<vertex x="-1.4021" y="-0.9475" curve="-90"/>
-<vertex x="-2.357" y="-0.0178" curve="-90.011749"/>
-<vertex x="-1.4046" y="0.9576" curve="-90"/>
-<vertex x="-0.4546" y="-0.0204" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-1.4046" y="-0.4395" curve="-90.012891"/>
-<vertex x="-1.8491" y="-0.0153" curve="-90"/>
-<vertex x="-1.4046" y="0.452" curve="-90"/>
-<vertex x="-0.9627" y="-0.0051" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="1.397" y="-0.9475" curve="-90"/>
-<vertex x="0.4421" y="-0.0178" curve="-90.011749"/>
-<vertex x="1.3945" y="0.9576" curve="-90"/>
-<vertex x="2.3445" y="-0.0204" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="1.3945" y="-0.4395" curve="-90.012891"/>
-<vertex x="0.95" y="-0.0153" curve="-90"/>
-<vertex x="1.3945" y="0.452" curve="-90"/>
-<vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
-</polygon>
+<package name="0805">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<smd name="1" x="-0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="0.8" dy="1.2" layer="1"/>
+<text x="0" y="0.889" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.889" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.0508" layer="39"/>
 </package>
 </packages>
 </library>
@@ -632,10 +604,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="" x="26.67" y="3.81"/>
-<element name="C2" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="" x="1.778" y="61.976" rot="R270"/>
-<element name="C3" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="" x="20.828" y="62.865"/>
-<element name="C4" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="" x="39.751" y="61.087"/>
+<element name="C1" library="SparkFun-Capacitors" package="0805" value="" x="30.48" y="5.08"/>
+<element name="C2" library="SparkFun-Capacitors" package="0805" value="" x="1.778" y="61.976" rot="R270"/>
+<element name="C3" library="SparkFun-Capacitors" package="0805" value="" x="20.828" y="62.865"/>
+<element name="C4" library="SparkFun-Capacitors" package="0805" value="" x="39.751" y="61.087"/>
 <element name="J1" library="Smartcrutches" package="1X03" value="LOAD_CELL1X03-PTH" x="20.32" y="90.17" rot="R180">
 <attribute name="SF_ID" value="SEN-10245" x="20.32" y="90.17" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -664,8 +636,8 @@ design rules under a new name.</description>
 <attribute name="SPICEMODEL" value="NONE" x="13.97" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="13.97" y="86.36" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="36.83" y="2.54" rot="R270">
-<attribute name="PROD_ID" value="SWCH-08261" x="36.83" y="2.54" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="38.1" y="1.27" rot="R270">
+<attribute name="PROD_ID" value="SWCH-08261" x="38.1" y="1.27" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$1" library="Smartcrutches" package="DC-DCCONVERTER" value="" x="13.335" y="34.036" rot="R90"/>
 <element name="U$2" library="Smartcrutches" package="ICA3H" value="ICA3H" x="31.115" y="71.374" rot="R270"/>
@@ -681,17 +653,17 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="C1" pad="1"/>
 <contactref element="U$1" pad="2"/>
-<wire x1="20.955" y1="11.176" x2="25.273" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="20.955" y1="11.176" x2="29.58" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="S1" pad="1"/>
 <contactref element="U$1" pad="1"/>
-<wire x1="26.035" y1="11.176" x2="39.37" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="26.035" y1="11.176" x2="40.64" y2="1.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C1" pad="2"/>
 <contactref element="S1" pad="2"/>
-<wire x1="28.067" y1="3.81" x2="36.83" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="31.38" y1="5.08" x2="38.1" y2="1.27" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="U$1" pad="3"/>
@@ -702,11 +674,11 @@ design rules under a new name.</description>
 <contactref element="C3" pad="1"/>
 <contactref element="C4" pad="2"/>
 <contactref element="J2" pad="3"/>
-<wire x1="41.148" y1="61.087" x2="27.115" y2="63.374" width="0" layer="19" extent="1-1"/>
-<wire x1="19.431" y1="62.865" x2="27.115" y2="63.374" width="0" layer="19" extent="1-1"/>
-<wire x1="18.415" y1="56.896" x2="19.431" y2="62.865" width="0" layer="19" extent="1-1"/>
-<wire x1="1.778" y1="63.373" x2="18.415" y2="56.896" width="0" layer="19" extent="1-1"/>
-<wire x1="6.668" y1="63.374" x2="1.778" y2="63.373" width="0" layer="19" extent="1-1"/>
+<wire x1="40.651" y1="61.087" x2="27.115" y2="63.374" width="0" layer="19" extent="1-1"/>
+<wire x1="19.928" y1="62.865" x2="27.115" y2="63.374" width="0" layer="19" extent="1-1"/>
+<wire x1="18.415" y1="56.896" x2="19.928" y2="62.865" width="0" layer="19" extent="1-1"/>
+<wire x1="1.778" y1="62.876" x2="18.415" y2="56.896" width="0" layer="19" extent="1-1"/>
+<wire x1="6.668" y1="63.374" x2="1.778" y2="62.876" width="0" layer="19" extent="1-1"/>
 <wire x1="10.795" y1="11.176" x2="18.415" y2="56.896" width="0" layer="19" extent="1-1"/>
 <wire x1="12.3952" y1="4.826" x2="10.795" y2="11.176" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -717,13 +689,13 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="P$1"/>
 <wire x1="24.765" y1="65.024" x2="38.735" y2="56.896" width="0" layer="19" extent="1-1"/>
 <wire x1="4.318" y1="65.024" x2="24.765" y2="65.024" width="0" layer="19" extent="1-1"/>
-<wire x1="1.778" y1="60.579" x2="4.318" y2="65.024" width="0" layer="19" extent="1-1"/>
+<wire x1="1.778" y1="61.076" x2="4.318" y2="65.024" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="U$1" pad="6"/>
 <contactref element="C3" pad="2"/>
 <contactref element="J2" pad="1"/>
-<wire x1="22.225" y1="62.865" x2="28.575" y2="56.896" width="0" layer="19" extent="1-1"/>
+<wire x1="21.728" y1="62.865" x2="28.575" y2="56.896" width="0" layer="19" extent="1-1"/>
 <wire x1="9.8552" y1="4.826" x2="28.575" y2="56.896" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-15V">
@@ -731,8 +703,8 @@ design rules under a new name.</description>
 <contactref element="C4" pad="1"/>
 <contactref element="U$2" pad="6"/>
 <contactref element="U$3" pad="6"/>
-<wire x1="38.354" y1="61.087" x2="39.115" y2="67.374" width="0" layer="19" extent="1-1"/>
-<wire x1="18.668" y1="67.374" x2="38.354" y2="61.087" width="0" layer="19" extent="1-1"/>
+<wire x1="38.851" y1="61.087" x2="39.115" y2="67.374" width="0" layer="19" extent="1-1"/>
+<wire x1="18.668" y1="67.374" x2="38.851" y2="61.087" width="0" layer="19" extent="1-1"/>
 <wire x1="8.255" y1="56.896" x2="18.668" y2="67.374" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-EX1">
