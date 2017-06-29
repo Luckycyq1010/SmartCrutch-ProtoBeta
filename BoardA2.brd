@@ -2157,7 +2157,6 @@ design rules under a new name.</description>
 <wire x1="11.287" y1="23.812" x2="11.287" y2="21.272" width="1.778" layer="1"/>
 <wire x1="11.287" y1="18.732" x2="11.287" y2="21.272" width="1.778" layer="1"/>
 <wire x1="35.932" y1="63.26" x2="35.932" y2="65.8" width="1.778" layer="1"/>
-<<<<<<< HEAD
 <contactref element="J1" pad="2"/>
 <wire x1="11.287" y1="18.732" x2="11.287" y2="16.192" width="1.778" layer="1"/>
 <wire x1="37.93" y1="33.044" x2="37.93" y2="52.97515625" width="1.778" layer="1"/>
@@ -2187,12 +2186,11 @@ design rules under a new name.</description>
 <wire x1="8.8552" y1="12.0166875" x2="9.8552" y2="7.493" width="1.778" layer="1"/>
 <wire x1="11.287" y1="28.892" x2="18.907" y2="41.592" width="0" layer="19" extent="1-1"/>
 <wire x1="18.907" y1="16.192" x2="11.287" y2="16.192" width="0" layer="19" extent="1-1"/>
-=======
-<<<<<<< HEAD
+
 <contactref element="MOTOR" pad="2"/>
 <wire x1="35.2688" y1="40.632" x2="40.911" y2="38.523" width="0" layer="19" extent="16-16"/>
 <wire x1="25.632" y1="40.632" x2="25.527" y2="40.632" width="0" layer="19" extent="1-1"/>
-=======
+
 <wire x1="39.788" y1="3.382" x2="38.16615625" y2="3.382" width="1.778" layer="16"/>
 <wire x1="38.16615625" y1="3.382" x2="37.15255625" y2="4.3956" width="1.778" layer="16"/>
 <wire x1="37.15255625" y1="4.3956" x2="35.59544375" y2="4.3956" width="1.778" layer="16"/>
@@ -2212,9 +2210,7 @@ design rules under a new name.</description>
 <wire x1="10.16" y1="5.08" x2="9.9822" y2="5.08" width="1.778" layer="16"/>
 <wire x1="9.9822" y1="5.08" x2="9.8552" y2="4.953" width="1.778" layer="16"/>
 <wire x1="25.527" y1="40.632" x2="25.632" y2="40.632" width="0" layer="19" extent="1-1"/>
->>>>>>> dff2cc122d4d07ed14eb9fe2c467121fa164f2a3
 <wire x1="33" y1="40.5" x2="33.147" y2="40.632" width="0" layer="19" extent="1-16"/>
->>>>>>> dff05fc4715f298df7b5ae05e3dfdb1bebcf7461
 </signal>
 <signal name="N$1">
 <contactref element="ADC" pad="13"/>
@@ -2355,7 +2351,6 @@ design rules under a new name.</description>
 <contactref element="T1" pad="3"/>
 <contactref element="C2" pad="2"/>
 <contactref element="D1" pad="A"/>
-<<<<<<< HEAD
 <wire x1="25.994" y1="1.905" x2="25.994" y2="2.016" width="1.778" layer="1"/>
 <wire x1="29.868" y1="5.382" x2="29.868" y2="4.468" width="1.778" layer="1"/>
 <wire x1="29.868" y1="4.468" x2="27.94" y2="2.54" width="1.778" layer="1"/>
@@ -2368,7 +2363,7 @@ design rules under a new name.</description>
 <wire x1="21.57074375" y1="9.2202" x2="21.82474375" y2="9.4742" width="1.27" layer="16"/>
 <wire x1="9.13976875" y1="9.2202" x2="21.57074375" y2="9.2202" width="1.27" layer="16"/>
 <wire x1="3.34" y1="8.198" x2="8.11756875" y2="8.198" width="1.27" layer="16"/>
-=======
+
 <wire x1="36.374" y1="2.516" x2="36.382" y2="2.516" width="1.016" layer="1"/>
 <wire x1="36.382" y1="2.516" x2="39.788" y2="5.922" width="1.016" layer="1"/>
 <wire x1="41.3608" y1="8.69090625" x2="41.3608" y2="9.78509375" width="1.016" layer="1"/>
@@ -2378,7 +2373,6 @@ design rules under a new name.</description>
 <wire x1="40.04" y1="11.10589375" x2="40.04" y2="11.778" width="1.016" layer="1"/>
 <contactref element="MOTOR" pad="1"/>
 <wire x1="40.04" y1="11.778" x2="40.911" y2="35.983" width="0" layer="19" extent="1-1"/>
->>>>>>> dff05fc4715f298df7b5ae05e3dfdb1bebcf7461
 </signal>
 <signal name="N$8">
 <contactref element="R1" pad="2"/>
