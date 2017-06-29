@@ -8468,7 +8468,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="T1" gate="G$1" x="76.2" y="78.74"/>
 <instance part="D1" gate="1" x="78.74" y="91.44" rot="R90"/>
 <instance part="C2" gate="G$1" x="86.36" y="88.9"/>
-<instance part="MOTOR" gate="G$1" x="60.96" y="91.44"/>
+<instance part="MOTOR" gate="G$1" x="60.96" y="93.98"/>
 <instance part="LOWERLOADCELL" gate="G$1" x="-20.32" y="104.14" rot="MR0"/>
 </instances>
 <busses>
@@ -8532,8 +8532,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="86.36" y="96.52"/>
 <wire x1="86.36" y1="96.52" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
 <label x="86.36" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
-<wire x1="78.74" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
 <junction x="78.74" y="96.52"/>
+<pinref part="MOTOR" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TEENSYU" gate="J$1" pin="1"/>
@@ -8710,7 +8711,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="78.74" y1="88.9" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
 <junction x="78.74" y="83.82"/>
 <wire x1="78.74" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="83.82" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="83.82" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="MOTOR" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">

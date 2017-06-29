@@ -1436,6 +1436,8 @@
 <pin name="A-" x="15.24" y="0" length="middle" rot="R180"/>
 <pin name="A+" x="15.24" y="-2.54" length="middle" rot="R180"/>
 <pin name="SD" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<text x="-12.7" y="7.62" size="1.524" layer="95">&gt;Name</text>
+<text x="-12.7" y="-10.16" size="1.524" layer="96">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
