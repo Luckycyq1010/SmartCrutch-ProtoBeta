@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="8.2.1">
 <drawing>
@@ -423,52 +423,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
 <rectangle x1="25.146" y1="-0.254" x2="25.654" y2="0.254" layer="51"/>
 <rectangle x1="27.686" y1="-0.254" x2="28.194" y2="0.254" layer="51"/>
-<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="1X04">
-<description>&lt;h3&gt;Plated Through Hole - 4 Pin&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="6.985" y1="1.27" x2="8.255" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="8.255" y1="1.27" x2="8.89" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="-0.635" x2="8.255" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="6.985" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="8.255" y1="-1.27" x2="6.985" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="8.89" y1="0.635" x2="8.89" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
@@ -2167,9 +2121,6 @@ design rules under a new name.</description>
 <element name="IMU" library="Smartcrutches" package="IMU" value="TSS-EM/3Space" x="33.128" y="24.278" rot="R180"/>
 <element name="LOADCELL_AMP" library="Smartcrutches" package="LOADCELLAMP2" value="HX711" x="15.24" y="59.403" rot="R180"/>
 <element name="TEENSY1-12" library="SparkFun-Connectors" package="1X12" value="" x="37.25" y="42.39" rot="R270"/>
-<element name="TEENSY13-17" library="SparkFun-Connectors" package="1X04" value="" x="5.5" y="35.56" rot="R90">
-<attribute name="PROD_ID" value="CONN-09696" x="5.5" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
 <element name="U$1" library="SparkFun-Hardware" package="STAND-OFF" value="" x="22.01" y="4.26"/>
 <element name="U$2" library="SparkFun-Hardware" package="STAND-OFF" value="" x="33.44" y="83"/>
 <element name="U$3" library="SparkFun-Hardware" package="STAND-OFF" value="" x="10.58" y="83"/>
@@ -2180,7 +2131,7 @@ design rules under a new name.</description>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" value="1N4004" x="32.794" y="1.016"/>
 <element name="C2" library="SparkFun-Passives" package="CAP-PTH-SMALL2" value="0.1uf" x="41.82" y="2.366" rot="R90"/>
 <element name="MOTOR" library="SparkFun-Connectors" package="1X02" value="" x="41.364" y="22.507" rot="R90"/>
-<element name="LOWERLOADCELL" library="SparkFun-Connectors" package="1X05" value="" x="-5" y="-20"/>
+<element name="LOWERLOADCELL" library="SparkFun-Connectors" package="1X05" value="" x="12.239" y="91.002" rot="R180"/>
 </elements>
 <signals>
 <signal name="5V">
@@ -2328,8 +2279,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="ADC-RFS">
 <contactref element="ADC" pad="9"/>
-<contactref element="TEENSY13-17" pad="4"/>
-<wire x1="5.5" y1="43.18" x2="5.5" y2="42.903025" width="1.016" layer="16"/>
 <wire x1="5.5" y1="42.903025" x2="3.8998" y2="41.302825" width="1.016" layer="16"/>
 <wire x1="3.8998" y1="41.302825" x2="3.8998" y2="27.7652" width="1.016" layer="16"/>
 <wire x1="3.8998" y1="27.7652" x2="9.232" y2="22.433" width="1.016" layer="16"/>
@@ -2338,8 +2287,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="ADC-TFS">
 <contactref element="ADC" pad="8"/>
-<contactref element="TEENSY13-17" pad="3"/>
-<wire x1="5.5" y1="40.64" x2="7.348975" y2="40.64" width="1.016" layer="16"/>
 <wire x1="7.348975" y1="40.64" x2="7.348975" y2="27.034325" width="1.016" layer="16"/>
 <wire x1="9.9432" y1="24.4401" x2="9.9432" y2="24.2618" width="1.016" layer="16"/>
 <wire x1="9.9432" y1="24.2618" x2="11.772" y2="22.433" width="1.016" layer="16"/>
@@ -2355,9 +2302,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$11">
 <contactref element="ADC" pad="4"/>
-</signal>
-<signal name="ADC-SLCK">
-<contactref element="TEENSY13-17" pad="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="T1" pad="3"/>
