@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="8.2.1">
 <drawing>
@@ -3025,7 +3025,6 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="R5" gate="G$1" x="78.74" y="-35.56" rot="R90"/>
 <instance part="R6" gate="G$1" x="78.74" y="-60.96" rot="R90"/>
 <instance part="J2" gate="G$1" x="134.62" y="2.54"/>
-<<<<<<< HEAD
 <instance part="LOADCELL" gate="G$1" x="35.56" y="-35.56"/>
 =======
 <instance part="LOADCELL" gate="G$1" x="33.02" y="-48.26"/>
