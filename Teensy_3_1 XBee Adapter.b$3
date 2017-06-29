@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,13 +23,13 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="6" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -298,9 +298,6 @@
 <dimension x1="27.94" y1="81.28" x2="27.94" y2="0" x3="-30.48" y3="40.64" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <text x="-40.64" y="-7.62" size="1.778" layer="47" font="vector" ratio="15">Units in inches</text>
 <text x="13.335" y="33.49625" size="1.778" layer="21" font="vector" ratio="15" rot="R90">3.1</text>
-<dimension x1="32.5" y1="15" x2="32.5" y2="0" x3="40" y3="7.5" textsize="1.778" layer="1"/>
-<dimension x1="31.75" y1="40.64" x2="1.27" y2="40.64" x3="16.51" y3="34.798" textsize="1.778" layer="20"/>
-<dimension x1="0" y1="0" x2="0" y2="35.56" x3="1.27" y3="17.78" textsize="1.778" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -2431,8 +2428,8 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="68.58" y="34.29">
-<attribute name="DESIGNER" value="Marshall Taylor" x="101.6" y="34.29" size="1.778" layer="51"/>
 <attribute name="VERSION" value="v10" x="68.58" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="DESIGNER" value="Marshall Taylor" x="101.6" y="34.29" size="1.778" layer="51"/>
 </element>
 <element name="JP1" library="Testing" package="TEENSY-3.1_NOSILK" value="TEENSY-3.1NOSILK" x="7.62" y="6.35" smashed="yes"/>
 <element name="JP4" library="SparkFun-Connectors" package="1X14" value="DNP" x="31.75" y="7.62" rot="R90"/>
