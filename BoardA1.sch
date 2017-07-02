@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="8.2.1">
 <drawing>
@@ -3025,11 +3025,8 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="R5" gate="G$1" x="78.74" y="-35.56" rot="R90"/>
 <instance part="R6" gate="G$1" x="78.74" y="-60.96" rot="R90"/>
 <instance part="J2" gate="G$1" x="134.62" y="2.54"/>
-<instance part="LOADCELL" gate="G$1" x="35.56" y="-35.56"/>
-=======
 <instance part="LOADCELL" gate="G$1" x="33.02" y="-48.26"/>
->>>>>>> dff05fc4715f298df7b5ae05e3dfdb1bebcf7461
-<instance part="BATTERYCONNECTOR" gate="J$1" x="-33.02" y="53.34"/>
+<instance part="BATTERYCONNECTOR" gate="J$1" x="-30.48" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -3059,11 +3056,6 @@ No silk outline, but tDocu layer shows pin location.
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="CTRL"/>
-<wire x1="5.08" y1="45.72" x2="-2.54" y2="45.72" width="0.1524" layer="91"/>
-<label x="-2.54" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="UPP_LC_AMP1" gate="G$1" pin="COM"/>
 <wire x1="-17.78" y1="2.54" x2="-22.86" y2="2.54" width="0.1524" layer="91"/>
 <label x="-22.86" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -3090,7 +3082,7 @@ No silk outline, but tDocu layer shows pin location.
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
 <junction x="127" y="2.54"/>
-<label x="121.412" y="1.524" size="1.778" layer="95"/>
+<label x="127" y="2.54" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -3127,7 +3119,7 @@ No silk outline, but tDocu layer shows pin location.
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <junction x="127" y="5.08"/>
-<label x="121.92" y="4.318" size="1.778" layer="95"/>
+<label x="127" y="5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="-15V" class="0">
@@ -3301,6 +3293,18 @@ No silk outline, but tDocu layer shows pin location.
 <pinref part="J2" gate="G$1" pin="2"/>
 <junction x="142.24" y="5.08"/>
 <label x="142.24" y="5.08" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="DC-CTRL" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="CTRL"/>
+<junction x="5.08" y="45.72"/>
+<label x="5.08" y="45.72" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="5"/>
+<junction x="127" y="0"/>
+<label x="127" y="0" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
