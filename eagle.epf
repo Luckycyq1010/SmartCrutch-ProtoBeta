@@ -351,8 +351,8 @@ UsedLibrary="Smartcrutches.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 1 1361 734"
-State=2
+Loc="-8 -8 1591 868"
+State=1
 Number=0
 
 [Desktop]
