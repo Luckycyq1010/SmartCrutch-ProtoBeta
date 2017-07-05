@@ -8475,7 +8475,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="D1" gate="1" x="78.74" y="91.44" rot="R90"/>
 <instance part="C2" gate="G$1" x="86.36" y="88.9"/>
 <instance part="MOTOR" gate="G$1" x="60.96" y="91.44"/>
-<instance part="LOWERLOADCELL" gate="G$1" x="-91.44" y="106.68"/>
+<instance part="LOWERLOADCELL" gate="G$1" x="-20.32" y="104.14" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -8825,6 +8825,41 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="J1" gate="G$1" pin="4"/>
 <junction x="43.18" y="68.58"/>
 <label x="43.18" y="68.58" size="0.762" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="E+" class="0">
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="E+"/>
+<pinref part="LOWERLOADCELL" gate="G$1" pin="5"/>
+<wire x1="-35.56" y1="109.22" x2="-27.94" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="E-"/>
+<pinref part="LOWERLOADCELL" gate="G$1" pin="4"/>
+<wire x1="-35.56" y1="106.68" x2="-27.94" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="A-"/>
+<pinref part="LOWERLOADCELL" gate="G$1" pin="3"/>
+<wire x1="-35.56" y1="104.14" x2="-27.94" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="A+"/>
+<pinref part="LOWERLOADCELL" gate="G$1" pin="2"/>
+<wire x1="-35.56" y1="101.6" x2="-27.94" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="LOADCELL_AMP" gate="G$1" pin="SD"/>
+<pinref part="LOWERLOADCELL" gate="G$1" pin="1"/>
+<wire x1="-35.56" y1="99.06" x2="-27.94" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

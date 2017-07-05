@@ -2181,7 +2181,6 @@ design rules under a new name.</description>
 <wire x1="18.65" y1="25.680625" x2="23.1648" y2="21.165825" width="1.778" layer="16"/>
 <wire x1="23.1648" y1="21.165825" x2="23.1648" y2="17.0670875" width="1.778" layer="16"/>
 <wire x1="25.527" y1="40.632" x2="33.147" y2="40.632" width="1.778" layer="1"/>
-<wire x1="33.147" y1="40.632" x2="35.2688" y2="40.632" width="0" layer="19" extent="1-16"/>
 <wire x1="23.1648" y1="36.0588" x2="19.8212" y2="36.0588" width="1.778" layer="1"/>
 <wire x1="19.8212" y1="36.0588" x2="2.54" y2="53.34" width="1.778" layer="1"/>
 <wire x1="2.54" y1="53.34" x2="2.54" y2="55.88" width="1.778" layer="1"/>
@@ -2208,7 +2207,7 @@ design rules under a new name.</description>
 <wire x1="10.16" y1="5.08" x2="9.9822" y2="5.08" width="1.778" layer="16"/>
 <wire x1="9.9822" y1="5.08" x2="9.8552" y2="4.953" width="1.778" layer="16"/>
 <wire x1="25.527" y1="40.632" x2="25.632" y2="40.632" width="0" layer="19" extent="1-1"/>
-<wire x1="33" y1="40.5" x2="33.147" y2="40.632" width="0" layer="19" extent="1-16"/>
+<wire x1="33" y1="40.5" x2="33.147" y2="40.632" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="ADC" pad="13"/>

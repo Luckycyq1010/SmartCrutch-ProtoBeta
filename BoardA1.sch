@@ -2991,7 +2991,7 @@ No silk outline, but tDocu layer shows pin location.
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Smartcrutches" deviceset="DC-DC" device=""/>
+<part name="DC_DC_CONVERTER" library="Smartcrutches" deviceset="DC-DC" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="KIT"/>
 <part name="BATTERSWITCH" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="KIT"/>
@@ -3012,7 +3012,7 @@ No silk outline, but tDocu layer shows pin location.
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="17.78" y="50.8"/>
+<instance part="DC_DC_CONVERTER" gate="G$1" x="17.78" y="50.8"/>
 <instance part="C1" gate="G$1" x="-2.54" y="50.8" rot="R270"/>
 <instance part="BATTERSWITCH" gate="1" x="-12.7" y="53.34"/>
 <instance part="C2" gate="G$1" x="35.56" y="53.34" rot="R180"/>
@@ -3024,7 +3024,7 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="UPP_LC_AMP2" gate="G$1" x="78.74" y="15.24"/>
 <instance part="R5" gate="G$1" x="78.74" y="-35.56" rot="R90"/>
 <instance part="R6" gate="G$1" x="78.74" y="-60.96" rot="R90"/>
-<instance part="J2" gate="G$1" x="134.62" y="2.54"/>
+<instance part="J2" gate="G$1" x="88.9" y="53.34"/>
 <instance part="LOADCELL" gate="G$1" x="33.02" y="-48.26"/>
 <instance part="BATTERYCONNECTOR" gate="J$1" x="-30.48" y="50.8"/>
 </instances>
@@ -3034,14 +3034,14 @@ No silk outline, but tDocu layer shows pin location.
 <net name="N$2" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="DC_DC_CONVERTER" gate="G$1" pin="GND"/>
 <wire x1="2.54" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="BATTERSWITCH" gate="1" pin="O"/>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
+<pinref part="DC_DC_CONVERTER" gate="G$1" pin="VIN"/>
 <wire x1="-7.62" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3065,7 +3065,7 @@ No silk outline, but tDocu layer shows pin location.
 <label x="55.88" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="0V"/>
+<pinref part="DC_DC_CONVERTER" gate="G$1" pin="0V"/>
 <wire x1="30.48" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="48.26" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
@@ -3080,13 +3080,13 @@ No silk outline, but tDocu layer shows pin location.
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
-<junction x="127" y="5.08"/>
-<label x="127" y="5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+<junction x="81.28" y="55.88"/>
+<label x="81.28" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+15V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="+VO2"/>
+<pinref part="DC_DC_CONVERTER" gate="G$1" pin="+VO2"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
 <junction x="35.56" y="55.88"/>
@@ -3105,19 +3105,23 @@ No silk outline, but tDocu layer shows pin location.
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="+VO1"/>
+<pinref part="DC_DC_CONVERTER" gate="G$1" pin="+VO1"/>
 <wire x1="30.48" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="53.34" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="55.88" x2="45.72" y2="55.88" width="0.1524" layer="91"/>
+<label x="43.18" y="55.88" size="1.778" layer="95" xref="yes"/>
 <junction x="43.18" y="55.88"/>
-<label x="45.72" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="6"/>
+<junction x="96.52" y="50.8"/>
+<label x="96.52" y="50.8" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="-15V" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="-VO2"/>
+<pinref part="DC_DC_CONVERTER" gate="G$1" pin="-VO2"/>
 <wire x1="30.48" y1="45.72" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
@@ -3270,9 +3274,9 @@ No silk outline, but tDocu layer shows pin location.
 <label x="-15.24" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<junction x="142.24" y="2.54"/>
-<label x="142.24" y="2.54" size="1.016" layer="95" xref="yes"/>
+<pinref part="J2" gate="G$1" pin="5"/>
+<junction x="81.28" y="50.8"/>
+<label x="81.28" y="50.8" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CH2" class="0">
@@ -3281,17 +3285,22 @@ No silk outline, but tDocu layer shows pin location.
 <junction x="60.96" y="22.86"/>
 <label x="60.96" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="4"/>
+<junction x="96.52" y="53.34"/>
+<label x="96.52" y="53.34" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="DC-CTRL" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="CTRL"/>
+<pinref part="DC_DC_CONVERTER" gate="G$1" pin="CTRL"/>
 <junction x="5.08" y="45.72"/>
 <label x="5.08" y="45.72" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<junction x="142.24" y="5.08"/>
-<label x="142.24" y="5.08" size="1.016" layer="95" xref="yes"/>
+<junction x="96.52" y="55.88"/>
+<label x="96.52" y="55.88" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
