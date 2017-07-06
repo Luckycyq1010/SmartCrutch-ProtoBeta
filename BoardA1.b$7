@@ -789,7 +789,12 @@ design rules under a new name.</description>
 <wire x1="35.814" y1="61.722" x2="33.528" y2="64.008" width="2.032" layer="16"/>
 <wire x1="33.528" y1="64.008" x2="33.528" y2="70.461" width="2.032" layer="16"/>
 <wire x1="33.528" y1="70.461" x2="26.532" y2="77.457" width="2.032" layer="16"/>
-<wire x1="4.826" y1="64.77" x2="26.532" y2="77.457" width="0" layer="19" extent="1-1"/>
+<wire x1="26.532" y1="77.457" x2="23.355" y2="77.457" width="2.032" layer="1"/>
+<wire x1="22.098" y1="76.2" x2="22.098" y2="74.676" width="2.032" layer="1"/>
+<wire x1="22.098" y1="74.676" x2="13.716" y2="66.294" width="2.032" layer="1"/>
+<wire x1="13.716" y1="66.294" x2="6.35" y2="66.294" width="2.032" layer="1"/>
+<wire x1="6.35" y1="66.294" x2="4.826" y2="64.77" width="1.27" layer="1"/>
+<wire x1="23.355" y1="77.457" x2="22.098" y2="76.2" width="2.032" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="U$1" pad="6"/>
@@ -798,6 +803,8 @@ design rules under a new name.</description>
 <wire x1="25.628" y1="55.372" x2="24" y2="57" width="1.27" layer="1"/>
 <wire x1="24" y1="57" x2="24" y2="59.233" width="1.27" layer="1"/>
 <wire x1="24" y1="59.233" x2="24.143" y2="59.508" width="1.27" layer="1"/>
+<contactref element="J2" pad="5"/>
+<wire x1="12.9352" y1="2.826" x2="25.628" y2="55.372" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="-15V">
 <contactref element="U$1" pad="4"/>
@@ -810,12 +817,12 @@ design rules under a new name.</description>
 <wire x1="3" y1="59.456" x2="2.988" y2="59.468" width="1.27" layer="1"/>
 <wire x1="2.988" y1="59.468" x2="2.988" y2="67.758" width="2.032" layer="16"/>
 <wire x1="2.988" y1="67.758" x2="4.572" y2="69.342" width="2.032" layer="16"/>
-<wire x1="4.572" y1="69.342" x2="17.97" y2="69.342" width="2.032" layer="16"/>
-<wire x1="17.97" y1="69.342" x2="19.176" y2="67.12" width="2.032" layer="16"/>
-<wire x1="19.176" y1="67.12" x2="20.192" y2="66.676" width="2.032" layer="16"/>
-<wire x1="20.192" y1="66.676" x2="24.384" y2="62.484" width="2.032" layer="16"/>
-<wire x1="24.384" y1="62.484" x2="27.751" y2="62.484" width="2.032" layer="16"/>
-<wire x1="27.751" y1="62.484" x2="28.882" y2="63.107" width="2.032" layer="16"/>
+<wire x1="4.572" y1="69.342" x2="16.954" y2="69.342" width="2.032" layer="16"/>
+<wire x1="16.954" y1="69.342" x2="19.176" y2="67.12" width="2.032" layer="16"/>
+<wire x1="19.176" y1="67.12" x2="19.176" y2="66.93" width="2.032" layer="16"/>
+<wire x1="19.176" y1="66.93" x2="23.622" y2="62.484" width="2.032" layer="16"/>
+<wire x1="23.622" y1="62.484" x2="28.259" y2="62.484" width="2.032" layer="16"/>
+<wire x1="28.259" y1="62.484" x2="28.882" y2="63.107" width="2.032" layer="16"/>
 </signal>
 <signal name="-EX1">
 <contactref element="UPP_LC_AMP1" pad="5"/>
@@ -883,11 +890,28 @@ design rules under a new name.</description>
 </signal>
 <signal name="CH1">
 <contactref element="UPP_LC_AMP1" pad="7"/>
-<contactref element="J2" pad="4"/>
-<wire x1="10.3952" y1="5.366" x2="25.882" y2="65.107" width="0" layer="19" extent="1-1"/>
+<contactref element="J2" pad="6"/>
+<wire x1="25.882" y1="65.107" x2="25.908" y2="65.081" width="1.27" layer="1"/>
+<wire x1="25.908" y1="65.081" x2="25.908" y2="62.484" width="1.27" layer="1"/>
+<wire x1="25.908" y1="62.484" x2="28.956" y2="59.436" width="1.27" layer="1"/>
+<wire x1="28.956" y1="59.436" x2="29.718" y2="59.436" width="1.27" layer="1"/>
+<via x="29.718" y="59.436" extent="1-16" drill="0.35"/>
+<wire x1="29.718" y1="59.436" x2="29.718" y2="47.244" width="1.27" layer="16"/>
+<wire x1="29.718" y1="47.244" x2="29.718" y2="15.24" width="1.27" layer="16"/>
+<wire x1="29.718" y1="15.24" x2="27.432" y2="12.954" width="1.27" layer="16"/>
+<wire x1="19.05" y1="12.954" x2="16.764" y2="10.668" width="1.27" layer="16"/>
+<wire x1="16.764" y1="8.382" x2="13.748" y2="5.366" width="1.27" layer="16"/>
+<wire x1="13.748" y1="5.366" x2="12.9352" y2="5.366" width="1.27" layer="16"/>
+<wire x1="27.432" y1="12.954" x2="19.05" y2="12.954" width="1.27" layer="16"/>
+<wire x1="16.764" y1="10.668" x2="16.764" y2="8.382" width="1.27" layer="16"/>
 </signal>
 <signal name="CH2">
 <contactref element="UPP_LC_AMP2" pad="7"/>
+<contactref element="J2" pad="4"/>
+<wire x1="17.176" y1="64.12" x2="12.954" y2="59.898" width="1.27" layer="16"/>
+<wire x1="12.954" y1="9.144" x2="10.3952" y2="6.5852" width="1.27" layer="16"/>
+<wire x1="10.3952" y1="6.5852" x2="10.3952" y2="5.366" width="1.27" layer="16"/>
+<wire x1="12.954" y1="59.898" x2="12.954" y2="9.144" width="1.27" layer="16"/>
 </signal>
 <signal name="S$1">
 </signal>

@@ -3090,9 +3090,8 @@ No silk outline, but tDocu layer shows pin location.
 <pinref part="U$1" gate="G$1" pin="+VO2"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="55.88" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
 <junction x="35.56" y="55.88"/>
-<label x="38.1" y="55.88" size="1.778" layer="95" rot="R90" xref="yes"/>
+<label x="35.56" y="55.88" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="UPP_LC_AMP1" gate="G$1" pin="+SUPPLY"/>

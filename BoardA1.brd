@@ -430,22 +430,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-5.08" y="2.794" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-5.08" y="-3.683" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="1X03_LOCK">
-<description>&lt;h3&gt;Plated Through Hole - 3 Pin Locking Footprint&lt;/h3&gt;
-Pins are staggered 0.005" off center to lock pins while soldering. 
+<package name="1X02">
+<description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
 &lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Pin count:2&lt;/li&gt;
 &lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;CONN_02&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
@@ -459,11 +452,9 @@ Pins are staggered 0.005" off center to lock pins while soldering.
 <wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0.127" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="-0.127" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="3" x="5.08" y="0.127" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
@@ -711,8 +702,8 @@ design rules under a new name.</description>
 <attribute name="SPICEMODEL" value="NONE" x="10.796" y="87.487" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="10.796" y="87.487" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="BATTERSWITCH" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="31.56" y="4.445" rot="R270">
-<attribute name="PROD_ID" value="SWCH-08261" x="31.56" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="BATTERSWITCH" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="32.322" y="4.445" rot="R270">
+<attribute name="PROD_ID" value="SWCH-08261" x="32.322" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="DC_DC_CONVERTER" library="Smartcrutches" package="DC-DCCONVERTER" value="" x="11.843" y="32.512" rot="R90"/>
 <element name="UPP_LC_AMP1" library="Smartcrutches" package="ICA3H" value="ICA3H" x="32.882" y="70.345" rot="R270"/>
@@ -724,7 +715,7 @@ design rules under a new name.</description>
 <element name="U$5" library="SparkFun-Hardware" package="STAND-OFF" value="" x="10.58" y="83" rot="R180"/>
 <element name="U$6" library="SparkFun-Hardware" package="STAND-OFF" value="" x="33.44" y="83" rot="R180"/>
 <element name="LOADCELL" library="SparkFun-Connectors" package="2X4" value="" x="22.096" y="88.296"/>
-<element name="BATTERYCONNECTOR" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="40.598" y="5.08" rot="R270"/>
+<element name="BATTERY" library="SparkFun-Connectors" package="1X02" value="" x="39.624" y="2.286" rot="R90"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -742,14 +733,15 @@ design rules under a new name.</description>
 <wire x1="24.543" y1="9.652" x2="33.02" y2="9.652" width="2.032" layer="1"/>
 <wire x1="33.02" y1="9.652" x2="34.29" y2="8.382" width="2.032" layer="1"/>
 <wire x1="34.29" y1="8.382" x2="34.29" y2="4.635" width="2.032" layer="1"/>
-<wire x1="34.29" y1="4.635" x2="34.1" y2="4.445" width="2.032" layer="1"/>
+<wire x1="34.29" y1="4.635" x2="34.862" y2="4.445" width="2.032" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C1" pad="2"/>
-<contactref element="BATTERYCONNECTOR" pad="1"/>
-<wire x1="17.476" y1="2.679" x2="18.38245" y2="2.679" width="2.032" layer="1"/>
-<wire x1="18.38245" y1="2.679" x2="19.02945" y2="2.032" width="2.032" layer="1"/>
-<wire x1="19.02945" y1="2.032" x2="40.725" y2="5.08" width="0" layer="19" extent="1-1"/>
+<contactref element="BATTERY" pad="1"/>
+<wire x1="17.476" y1="2.679" x2="17.895" y2="2.679" width="1.27" layer="1"/>
+<wire x1="17.895" y1="2.679" x2="18.923" y2="1.651" width="1.27" layer="1"/>
+<wire x1="18.923" y1="1.651" x2="38.989" y2="1.651" width="1.27" layer="1"/>
+<wire x1="38.989" y1="1.651" x2="39.624" y2="2.286" width="1.27" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="UPP_LC_AMP1" pad="1"/>
@@ -1000,10 +992,14 @@ design rules under a new name.</description>
 <wire x1="7.62" y1="9.144" x2="7.62" y2="5.6012" width="1.27" layer="1"/>
 <wire x1="7.62" y1="5.6012" x2="7.8552" y2="5.366" width="1.27" layer="1"/>
 </signal>
-<signal name="N$4">
+<signal name="N$5">
+<contactref element="BATTERY" pad="2"/>
 <contactref element="BATTERSWITCH" pad="2"/>
-<contactref element="BATTERYCONNECTOR" pad="3"/>
-<wire x1="31.56" y1="4.445" x2="40.725" y2="0" width="0" layer="19" extent="1-1"/>
+<wire x1="39.624" y1="4.826" x2="41.0718" y2="6.4262" width="0" layer="19" extent="1-16"/>
+<wire x1="32.322" y1="4.445" x2="32.41936875" y2="4.445" width="1.27" layer="16"/>
+<wire x1="32.41936875" y1="4.445" x2="34.14656875" y2="2.7178" width="1.27" layer="16"/>
+<wire x1="34.14656875" y1="2.7178" x2="37.5158" y2="2.7178" width="1.27" layer="16"/>
+<wire x1="37.5158" y1="2.7178" x2="39.624" y2="4.826" width="1.27" layer="16"/>
 </signal>
 </signals>
 </board>
