@@ -711,8 +711,8 @@ design rules under a new name.</description>
 <attribute name="SPICEMODEL" value="NONE" x="10.796" y="87.487" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="10.796" y="87.487" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="BATTERSWITCH" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="30.798" y="3.683" rot="R270">
-<attribute name="PROD_ID" value="SWCH-08261" x="30.798" y="3.683" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="BATTERSWITCH" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="31.56" y="4.445" rot="R270">
+<attribute name="PROD_ID" value="SWCH-08261" x="31.56" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="DC_DC_CONVERTER" library="Smartcrutches" package="DC-DCCONVERTER" value="" x="11.843" y="32.512" rot="R90"/>
 <element name="UPP_LC_AMP1" library="Smartcrutches" package="ICA3H" value="ICA3H" x="32.882" y="70.345" rot="R270"/>
@@ -730,20 +730,26 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="C1" pad="1"/>
 <contactref element="DC_DC_CONVERTER" pad="2"/>
-<wire x1="19.463" y1="9.652" x2="19.463" y2="7.46" width="1.27" layer="1"/>
-<wire x1="19.463" y1="7.46" x2="17.476" y2="5.473" width="1.27" layer="1"/>
+<wire x1="17.476" y1="5.473" x2="18.01445" y2="5.473" width="2.032" layer="1"/>
+<wire x1="18.01445" y1="5.473" x2="19.605725" y2="7.064275" width="2.032" layer="1"/>
+<wire x1="19.605725" y1="7.064275" x2="19.605725" y2="9.096275" width="2.032" layer="1"/>
+<wire x1="19.605725" y1="9.096275" x2="19.558" y2="9.144" width="2.032" layer="1"/>
+<wire x1="19.558" y1="9.144" x2="19.463" y2="9.652" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="BATTERSWITCH" pad="1"/>
 <contactref element="DC_DC_CONVERTER" pad="1"/>
-<wire x1="24.543" y1="9.652" x2="32.258" y2="9.652" width="2.032" layer="1"/>
-<wire x1="32.258" y1="9.652" x2="34.354" y2="7.556" width="2.032" layer="1"/>
-<wire x1="34.354" y1="7.556" x2="33.338" y2="3.683" width="2.032" layer="1"/>
+<wire x1="24.543" y1="9.652" x2="33.02" y2="9.652" width="2.032" layer="1"/>
+<wire x1="33.02" y1="9.652" x2="34.29" y2="8.382" width="2.032" layer="1"/>
+<wire x1="34.29" y1="8.382" x2="34.29" y2="4.635" width="2.032" layer="1"/>
+<wire x1="34.29" y1="4.635" x2="34.1" y2="4.445" width="2.032" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C1" pad="2"/>
 <contactref element="BATTERYCONNECTOR" pad="1"/>
-<wire x1="17.476" y1="2.679" x2="40.725" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="17.476" y1="2.679" x2="18.38245" y2="2.679" width="2.032" layer="1"/>
+<wire x1="18.38245" y1="2.679" x2="19.02945" y2="2.032" width="2.032" layer="1"/>
+<wire x1="19.02945" y1="2.032" x2="40.725" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="UPP_LC_AMP1" pad="1"/>
@@ -874,11 +880,6 @@ design rules under a new name.</description>
 <contactref element="UPP_LC_AMP1" pad="3"/>
 <contactref element="R3" pad="2"/>
 <contactref element="R1" pad="1"/>
-<<<<<<< HEAD
-<wire x1="41.275" y1="87.122" x2="40.497" y2="87.9" width="1.27" layer="1"/>
-<wire x1="37.75" y1="88.662" x2="40.497" y2="87.9" width="1.27" layer="1"/>
-=======
->>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 <wire x1="29.882" y1="78.345" x2="29.718" y2="78.509" width="1.27" layer="1"/>
 <wire x1="29.718" y1="78.509" x2="29.718" y2="84.582" width="1.27" layer="1"/>
 <wire x1="29.718" y1="84.582" x2="31.438" y2="86.302" width="1.27" layer="1"/>
@@ -887,12 +888,9 @@ design rules under a new name.</description>
 <wire x1="32.824" y1="86.36" x2="35.687" y2="86.36" width="1.27" layer="1"/>
 <wire x1="35.687" y1="86.36" x2="37.75" y2="88.423" width="1.27" layer="1"/>
 <wire x1="37.75" y1="88.423" x2="37.75" y2="88.662" width="1.27" layer="1"/>
-<<<<<<< HEAD
-=======
 <wire x1="37.75" y1="88.662" x2="37.75" y2="88.392" width="1.27" layer="1"/>
 <wire x1="40.005" y1="88.392" x2="41.275" y2="87.122" width="1.27" layer="1"/>
 <wire x1="37.75" y1="88.392" x2="40.005" y2="88.392" width="1.27" layer="1"/>
->>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </signal>
 <signal name="+EX1">
 <contactref element="UPP_LC_AMP1" pad="2"/>
@@ -1005,7 +1003,7 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="BATTERSWITCH" pad="2"/>
 <contactref element="BATTERYCONNECTOR" pad="3"/>
-<wire x1="30.798" y1="3.683" x2="40.725" y2="0" width="0" layer="19" extent="1-1"/>
+<wire x1="31.56" y1="4.445" x2="40.725" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
