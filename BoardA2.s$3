@@ -8542,9 +8542,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="-109.22" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<junction x="43.18" y="71.12"/>
-<label x="45.72" y="71.12" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="6"/>
+<junction x="43.18" y="66.04"/>
+<label x="43.18" y="66.04" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8807,9 +8807,9 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="0" y="43.18" size="0.762" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<junction x="43.18" y="66.04"/>
-<label x="45.72" y="66.04" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<junction x="27.94" y="66.04"/>
+<label x="27.94" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ADC-CH2" class="0">
@@ -8821,7 +8821,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <junction x="43.18" y="68.58"/>
-<label x="45.72" y="68.58" size="1.778" layer="95"/>
+<label x="43.18" y="68.58" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="E+" class="0">
@@ -8857,6 +8857,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="SD"/>
 <pinref part="LOWERLOADCELL" gate="G$1" pin="1"/>
 <wire x1="-35.56" y1="99.06" x2="-27.94" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DC-CTRL" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<junction x="43.18" y="71.12"/>
+<label x="43.18" y="71.12" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

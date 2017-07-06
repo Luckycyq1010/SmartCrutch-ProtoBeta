@@ -8566,7 +8566,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="2.54" y="40.64"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="2">
 <segment>
 <label x="-12.7" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="ADC" gate="G$1" pin="1"/>
