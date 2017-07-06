@@ -8689,17 +8689,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="-88.9" y="63.5" size="0.762" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ADC-CONVST" class="0">
-<segment>
-<junction x="-88.9" y="55.88"/>
-<label x="-88.9" y="55.88" size="0.762" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="ADC" gate="G$1" pin="5"/>
-<junction x="-12.7" y="53.34"/>
-<label x="-12.7" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="C"/>
@@ -8850,6 +8839,18 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="J1" gate="G$1" pin="2"/>
 <junction x="43.18" y="71.12"/>
 <label x="43.18" y="71.12" size="1.016" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ADC-CON" class="0">
+<segment>
+<pinref part="ADC" gate="G$1" pin="5"/>
+<junction x="-12.7" y="53.34"/>
+<label x="-12.7" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TEENSY1-12" gate="G$1" pin="2"/>
+<junction x="-88.9" y="55.88"/>
+<label x="-88.9" y="55.88" size="0.762" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
