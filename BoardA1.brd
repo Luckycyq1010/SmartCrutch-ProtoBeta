@@ -704,8 +704,8 @@ design rules under a new name.</description>
 <attribute name="SPICEMODEL" value="NONE" x="10.796" y="87.487" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="10.796" y="87.487" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="BATTERSWITCH" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="32.322" y="4.445" rot="R270">
-<attribute name="PROD_ID" value="SWCH-08261" x="32.322" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="BATTERSWITCH" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="31.814" y="4.445" rot="R270">
+<attribute name="PROD_ID" value="SWCH-08261" x="31.814" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="DC_DC_CONVERTER" library="Smartcrutches" package="DC-DCCONVERTER" value="" x="11.843" y="32.512" rot="R90"/>
 <element name="UPP_LC_AMP1" library="Smartcrutches" package="ICA3H" value="ICA3H" x="32.882" y="70.345" rot="R270"/>
@@ -735,7 +735,7 @@ design rules under a new name.</description>
 <wire x1="24.543" y1="9.652" x2="33.02" y2="9.652" width="2.032" layer="1"/>
 <wire x1="33.02" y1="9.652" x2="34.29" y2="8.382" width="2.032" layer="1"/>
 <wire x1="34.29" y1="8.382" x2="34.29" y2="4.635" width="2.032" layer="1"/>
-<wire x1="34.29" y1="4.635" x2="34.862" y2="4.445" width="2.032" layer="1"/>
+<wire x1="34.29" y1="4.635" x2="34.354" y2="4.445" width="2.032" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C1" pad="2"/>
@@ -996,7 +996,7 @@ design rules under a new name.</description>
 <contactref element="BATTERY" pad="2"/>
 <contactref element="BATTERSWITCH" pad="2"/>
 <wire x1="39.624" y1="4.826" x2="41.0718" y2="6.4262" width="0" layer="19" extent="1-16"/>
-<wire x1="32.322" y1="4.445" x2="32.41936875" y2="4.445" width="1.27" layer="16"/>
+<wire x1="31.814" y1="4.445" x2="32.41936875" y2="4.445" width="1.27" layer="16"/>
 <wire x1="32.41936875" y1="4.445" x2="34.14656875" y2="2.7178" width="1.27" layer="16"/>
 <wire x1="34.14656875" y1="2.7178" x2="37.5158" y2="2.7178" width="1.27" layer="16"/>
 <wire x1="37.5158" y1="2.7178" x2="39.624" y2="4.826" width="1.27" layer="16"/>
