@@ -695,33 +695,34 @@ design rules under a new name.</description>
 <element name="C2" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="" x="39.486" y="59.459"/>
 <element name="C3" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="" x="22.746" y="59.508"/>
 <element name="C4" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value="" x="4.385" y="59.468"/>
-<element name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="0204/7" value="350ohm" x="33.94" y="87.9" rot="R180">
-<attribute name="SPICEMODEL" value="NONE" x="33.94" y="87.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="33.94" y="87.9" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="0204/7" value="350ohm" x="33.94" y="88.662" rot="R180">
+<attribute name="SPICEMODEL" value="NONE" x="33.94" y="88.662" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="33.94" y="88.662" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="0204/7" value="350ohm" x="41.275" y="83.312" rot="MR90">
 <attribute name="SPICEMODEL" value="NONE" x="41.275" y="83.312" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="41.275" y="83.312" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
+<<<<<<< HEAD
 <element name="R5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="0204/7" value="350hm" x="2.715" y="83.312" rot="R270">
 <attribute name="SPICEMODEL" value="NONE" x="2.715" y="83.312" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="2.715" y="83.312" size="1.778" layer="27" rot="R270" display="off"/>
+=======
+<element name="R5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="0204/7" value="350hm" x="3.477" y="83.312" rot="R270">
+<attribute name="SPICEMODEL" value="NONE" x="3.477" y="83.312" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="3.477" y="83.312" size="1.778" layer="27" rot="R270" display="off"/>
+>>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </element>
 <element name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="0204/7" value="350hm" x="10.796" y="87.487" rot="R180">
 <attribute name="SPICEMODEL" value="NONE" x="10.796" y="87.487" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="10.796" y="87.487" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="BATTERSWITCH" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="31.814" y="3.683" rot="R270">
-<attribute name="PROD_ID" value="SWCH-08261" x="31.814" y="3.683" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="BATTERSWITCH" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="30.798" y="3.683" rot="R270">
+<attribute name="PROD_ID" value="SWCH-08261" x="30.798" y="3.683" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="DC_DC_CONVERTER" library="Smartcrutches" package="DC-DCCONVERTER" value="" x="11.843" y="32.512" rot="R90"/>
-<<<<<<< HEAD
-<element name="UPP_LC_AMP1" library="Smartcrutches" package="ICA3H" value="ICA3H" x="32.882" y="71.107" rot="R270"/>
-<element name="UPP_LC_AMP2" library="Smartcrutches" package="ICA3H" value="ICA3H" x="11.176" y="71.12" rot="R270"/>
-=======
 <element name="UPP_LC_AMP1" library="Smartcrutches" package="ICA3H" value="ICA3H" x="32.882" y="70.345" rot="R270"/>
 <element name="UPP_LC_AMP2" library="Smartcrutches" package="ICA3H" value="ICA3H" x="11.176" y="70.739" rot="R270"/>
->>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 <element name="J2" library="SparkFun-Connectors" package="2X3" value="FEMALE 2x3" x="7.8552" y="2.826">
 <attribute name="PROD_ID" value="CONN-11566" x="7.8552" y="2.826" size="1.778" layer="27" display="off"/>
 </element>
@@ -729,7 +730,7 @@ design rules under a new name.</description>
 <element name="U$5" library="SparkFun-Hardware" package="STAND-OFF" value="" x="10.58" y="83" rot="R180"/>
 <element name="U$6" library="SparkFun-Hardware" package="STAND-OFF" value="" x="33.44" y="83" rot="R180"/>
 <element name="LOADCELL" library="SparkFun-Connectors" package="2X4" value="" x="22.096" y="88.296"/>
-<element name="BATTERYCONNECTOR" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="43.307" y="4.149"/>
+<element name="BATTERYCONNECTOR" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="40.598" y="5.08" rot="R270"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -741,13 +742,14 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="BATTERSWITCH" pad="1"/>
 <contactref element="DC_DC_CONVERTER" pad="1"/>
-<wire x1="24.543" y1="9.652" x2="34.354" y2="3.683" width="0" layer="19" extent="1-1"/>
+<wire x1="24.543" y1="9.652" x2="32.258" y2="9.652" width="2.032" layer="1"/>
+<wire x1="32.258" y1="9.652" x2="34.354" y2="7.556" width="2.032" layer="1"/>
+<wire x1="34.354" y1="7.556" x2="33.338" y2="3.683" width="2.032" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C1" pad="2"/>
-<wire x1="31.1" y1="4.587" x2="17.476" y2="2.679" width="0" layer="19" extent="1-16"/>
 <contactref element="BATTERYCONNECTOR" pad="1"/>
-<wire x1="31.1" y1="4.587" x2="43.307" y2="4.276" width="0" layer="19" extent="16-16"/>
+<wire x1="17.476" y1="2.679" x2="40.725" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="UPP_LC_AMP1" pad="1"/>
@@ -769,11 +771,7 @@ design rules under a new name.</description>
 <wire x1="32.004" y1="56.388" x2="32.004" y2="51.816" width="2.032" layer="1"/>
 <wire x1="32.004" y1="51.816" x2="31.242" y2="51.054" width="2.032" layer="1"/>
 <wire x1="31.242" y1="51.054" x2="16.923" y2="51.054" width="2.032" layer="1"/>
-<<<<<<< HEAD
-<wire x1="7.176" y1="63.12" x2="5.782" y2="61.726" width="2.032" layer="1"/>
-=======
 <wire x1="7.176" y1="62.739" x2="5.782" y2="61.726" width="2.032" layer="1"/>
->>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 <wire x1="5.782" y1="61.726" x2="5.782" y2="59.468" width="2.032" layer="1"/>
 <wire x1="5.782" y1="59.468" x2="5.814" y2="59.436" width="2.032" layer="1"/>
 <wire x1="5.814" y1="59.436" x2="14.478" y2="59.436" width="2.032" layer="1"/>
@@ -787,11 +785,7 @@ design rules under a new name.</description>
 <wire x1="21.336" y1="59.521" x2="21.336" y2="60.96" width="2.032" layer="16"/>
 <wire x1="21.336" y1="60.96" x2="22.352" y2="61.976" width="2.032" layer="16"/>
 <wire x1="27.686" y1="61.976" x2="28.817" y2="63.107" width="2.032" layer="16"/>
-<<<<<<< HEAD
-<wire x1="28.817" y1="63.107" x2="28.882" y2="63.107" width="2.032" layer="16"/>
-=======
 <wire x1="28.817" y1="63.107" x2="28.882" y2="62.345" width="2.032" layer="16"/>
->>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 <wire x1="22.352" y1="61.976" x2="27.686" y2="61.976" width="2.032" layer="16"/>
 </signal>
 <signal name="+15V">
@@ -804,21 +798,12 @@ design rules under a new name.</description>
 <wire x1="40.894" y1="59.448" x2="40.894" y2="56.769" width="2.032" layer="1"/>
 <wire x1="40.894" y1="59.448" x2="40.883" y2="59.459" width="2.032" layer="1"/>
 <wire x1="6.35" y1="66.294" x2="13.716" y2="66.294" width="2.032" layer="1"/>
-<<<<<<< HEAD
-<wire x1="6.35" y1="66.294" x2="4.826" y2="64.77" width="1.524" layer="1"/>
-<wire x1="13.716" y1="66.294" x2="17.526" y2="70.104" width="2.032" layer="1"/>
-<wire x1="17.526" y1="70.104" x2="22.86" y2="70.104" width="2.032" layer="1"/>
-<wire x1="26.532" y1="66.432" x2="22.86" y2="70.104" width="2.032" layer="1"/>
-<wire x1="26.532" y1="66.432" x2="26.532" y2="64.757" width="2.032" layer="1"/>
-<wire x1="26.532" y1="64.757" x2="28.069" y2="66.294" width="2.032" layer="1"/>
-=======
 <wire x1="6.35" y1="66.294" x2="4.826" y2="64.389" width="1.524" layer="1"/>
 <wire x1="13.716" y1="66.294" x2="17.526" y2="70.104" width="2.032" layer="1"/>
 <wire x1="17.526" y1="70.104" x2="22.86" y2="70.104" width="2.032" layer="1"/>
 <wire x1="26.532" y1="66.432" x2="22.86" y2="70.104" width="2.032" layer="1"/>
 <wire x1="26.532" y1="66.432" x2="26.532" y2="63.995" width="2.032" layer="1"/>
 <wire x1="26.532" y1="63.995" x2="28.069" y2="66.294" width="2.032" layer="1"/>
->>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 <wire x1="35.052" y1="66.294" x2="36.195" y2="65.151" width="2.032" layer="1"/>
 <wire x1="36.195" y1="65.151" x2="36.195" y2="62.357" width="2.032" layer="1"/>
 <wire x1="36.195" y1="62.357" x2="36.576" y2="61.976" width="2.032" layer="1"/>
@@ -855,26 +840,16 @@ design rules under a new name.</description>
 <wire x1="2.988" y1="59.468" x2="2.988" y2="67.758" width="2.032" layer="16"/>
 <wire x1="2.988" y1="67.758" x2="4.572" y2="69.342" width="2.032" layer="16"/>
 <wire x1="4.572" y1="69.342" x2="16.954" y2="69.342" width="2.032" layer="16"/>
-<<<<<<< HEAD
-<wire x1="16.954" y1="69.342" x2="19.176" y2="67.12" width="2.032" layer="16"/>
-<wire x1="19.176" y1="67.12" x2="19.176" y2="66.93" width="2.032" layer="16"/>
-<wire x1="19.176" y1="67.12" x2="19.189" y2="67.107" width="2.032" layer="16"/>
-<wire x1="19.189" y1="67.107" x2="40.882" y2="67.107" width="2.032" layer="16"/>
-=======
 <wire x1="16.954" y1="69.342" x2="19.176" y2="66.739" width="2.032" layer="16"/>
 <wire x1="19.176" y1="66.739" x2="19.176" y2="66.93" width="2.032" layer="16"/>
 <wire x1="19.176" y1="66.739" x2="19.189" y2="67.107" width="2.032" layer="16"/>
 <wire x1="19.189" y1="67.107" x2="40.882" y2="66.345" width="2.032" layer="16"/>
->>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </signal>
 <signal name="-EX1">
 <contactref element="UPP_LC_AMP1" pad="5"/>
 <contactref element="R3" pad="1"/>
 <contactref element="LOADCELL" pad="1"/>
 <<<<<<< HEAD
-<wire x1="18.286" y1="87.026" x2="41.656" y2="90.551" width="0" layer="19" extent="1-1"/>
-<wire x1="39.882" y1="76.107" x2="41.656" y2="90.551" width="0" layer="19" extent="1-1"/>
-=======
 <wire x1="41.275" y1="77.5" x2="39.882" y2="75.345" width="1.27" layer="1"/>
 <wire x1="41.275" y1="77.5" x2="41.275" y2="79.502" width="1.27" layer="1"/>
 <wire x1="20.574" y1="83.058" x2="18.286" y2="85.346" width="1.27" layer="1"/>
@@ -883,6 +858,21 @@ design rules under a new name.</description>
 <wire x1="39.882" y1="75.345" x2="36.927" y2="73.152" width="1.27" layer="1"/>
 <wire x1="36.927" y1="73.152" x2="25.146" y2="73.152" width="1.27" layer="1"/>
 <wire x1="20.574" y1="77.724" x2="20.574" y2="83.058" width="1.27" layer="1"/>
+=======
+<wire x1="39.882" y1="75.345" x2="41.275" y2="77.5" width="1.27" layer="1"/>
+<wire x1="41.275" y1="77.5" x2="41.275" y2="79.502" width="1.27" layer="1"/>
+<wire x1="18.286" y1="85.346" x2="20.574" y2="83.058" width="1.27" layer="1"/>
+<wire x1="18.286" y1="85.346" x2="18.286" y2="87.026" width="1.27" layer="1"/>
+<wire x1="20.574" y1="76.962" x2="22.86" y2="74.676" width="1.27" layer="1"/>
+<wire x1="22.86" y1="74.676" x2="22.86" y2="73.152" width="1.27" layer="1"/>
+<wire x1="22.86" y1="73.152" x2="23.622" y2="72.39" width="1.27" layer="1"/>
+<wire x1="23.622" y1="72.39" x2="35.814" y2="72.39" width="1.27" layer="1"/>
+<wire x1="35.814" y1="72.39" x2="36.576" y2="73.152" width="1.27" layer="1"/>
+<wire x1="36.576" y1="73.152" x2="36.927" y2="73.152" width="1.27" layer="1"/>
+<wire x1="20.574" y1="83.058" x2="20.574" y2="76.962" width="1.27" layer="1"/>
+<wire x1="36.576" y1="73.152" x2="38.862" y2="73.152" width="1.27" layer="1"/>
+<wire x1="38.862" y1="73.152" x2="39.882" y2="74.172" width="1.27" layer="1"/>
+<wire x1="39.882" y1="74.172" x2="39.882" y2="75.345" width="1.27" layer="1"/>
 >>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </signal>
 <signal name="-SIG1">
@@ -891,38 +881,54 @@ design rules under a new name.</description>
 <contactref element="LOADCELL" pad="5"/>
 <wire x1="20.826" y1="87.026" x2="23.366" y2="87.026" width="1.27" layer="1"/>
 <<<<<<< HEAD
-<wire x1="23.366" y1="87.026" x2="22.366" y2="78.634" width="0" layer="19" extent="1-16"/>
-<wire x1="22.366" y1="78.634" x2="25" y2="76" width="0" layer="19" extent="1-16"/>
-<wire x1="25" y1="76" x2="33.011" y2="76" width="0" layer="19" extent="1-16"/>
-<wire x1="33.011" y1="76" x2="36.882" y2="79.107" width="0" layer="19" extent="1-16"/>
-=======
 <wire x1="23.366" y1="87.026" x2="36.882" y2="78.345" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="36.882" y1="78.345" x2="35.529" y2="79.698" width="1.27" layer="16"/>
+<wire x1="35.529" y1="79.698" x2="32.0722625" y2="79.698" width="1.27" layer="16"/>
+<wire x1="25.146" y1="83.058" x2="23.366" y2="84.838" width="1.27" layer="16"/>
+<wire x1="23.366" y1="84.838" x2="23.366" y2="87.026" width="1.27" layer="16"/>
+<wire x1="32.0722625" y1="79.698" x2="28.7122625" y2="83.058" width="1.27" layer="16"/>
+<wire x1="28.7122625" y1="83.058" x2="25.146" y2="83.058" width="1.27" layer="16"/>
 >>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </signal>
 <signal name="+SIG1">
 <contactref element="UPP_LC_AMP1" pad="3"/>
 <contactref element="R3" pad="2"/>
 <contactref element="R1" pad="1"/>
-<<<<<<< HEAD
-<wire x1="37.75" y1="87.9" x2="34.036" y2="90.551" width="0" layer="19" extent="1-1"/>
-<wire x1="29.882" y1="79.107" x2="37.75" y2="87.9" width="0" layer="19" extent="1-1"/>
-=======
 <wire x1="41.275" y1="87.122" x2="40.497" y2="87.9" width="1.27" layer="1"/>
+<<<<<<< HEAD
 <wire x1="40.497" y1="87.9" x2="37.75" y2="87.9" width="1.27" layer="1"/>
 <wire x1="29.882" y1="78.345" x2="37.75" y2="87.9" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="37.75" y1="88.662" x2="40.497" y2="87.9" width="1.27" layer="1"/>
+<wire x1="29.882" y1="78.345" x2="29.718" y2="78.509" width="1.27" layer="1"/>
+<wire x1="29.718" y1="78.509" x2="29.718" y2="84.582" width="1.27" layer="1"/>
+<wire x1="29.718" y1="84.582" x2="31.438" y2="86.302" width="1.27" layer="1"/>
+<wire x1="31.438" y1="86.302" x2="32.766" y2="86.302" width="1.27" layer="1"/>
+<wire x1="32.766" y1="86.302" x2="32.824" y2="86.36" width="1.27" layer="1"/>
+<wire x1="32.824" y1="86.36" x2="35.687" y2="86.36" width="1.27" layer="1"/>
+<wire x1="35.687" y1="86.36" x2="37.75" y2="88.423" width="1.27" layer="1"/>
+<wire x1="37.75" y1="88.423" x2="37.75" y2="88.662" width="1.27" layer="1"/>
 >>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </signal>
 <signal name="+EX1">
 <contactref element="UPP_LC_AMP1" pad="2"/>
 <contactref element="R1" pad="2"/>
 <contactref element="LOADCELL" pad="7"/>
-<wire x1="25.906" y1="87.026" x2="26.256" y2="84.026" width="0" layer="19" extent="1-16"/>
 <<<<<<< HEAD
-<wire x1="30.13" y1="87.9" x2="26.882" y2="77.107" width="0" layer="19" extent="1-1"/>
-=======
+<wire x1="25.906" y1="87.026" x2="26.256" y2="84.026" width="0" layer="19" extent="1-16"/>
 <wire x1="30.13" y1="87.9" x2="26.882" y2="76.345" width="0" layer="19" extent="1-1"/>
->>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 <wire x1="25.906" y1="87.026" x2="30.13" y2="87.9" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="26.064" y1="86.868" x2="25.906" y2="87.026" width="1.27" layer="1"/>
+<wire x1="26.064" y1="86.868" x2="28.194" y2="86.868" width="1.27" layer="1"/>
+<wire x1="28.194" y1="86.868" x2="29.226" y2="87.9" width="1.27" layer="1"/>
+<wire x1="29.226" y1="87.9" x2="30.13" y2="88.662" width="1.27" layer="1"/>
+<wire x1="25.906" y1="87.026" x2="25.908" y2="87.024" width="1.27" layer="1"/>
+<wire x1="25.908" y1="87.024" x2="25.908" y2="79.248" width="1.27" layer="1"/>
+<wire x1="25.908" y1="79.248" x2="26.882" y2="78.274" width="1.27" layer="1"/>
+<wire x1="26.882" y1="78.274" x2="26.882" y2="76.345" width="1.27" layer="1"/>
+>>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </signal>
 <signal name="-EX2">
 <contactref element="UPP_LC_AMP2" pad="5"/>
@@ -932,45 +938,88 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="86.853" x2="15.24" y2="84.582" width="1.27" layer="1"/>
 <wire x1="15.24" y1="84.582" x2="18.176" y2="81.646" width="1.27" layer="1"/>
 <wire x1="18.176" y1="81.646" x2="18.176" y2="75.739" width="1.27" layer="1"/>
+<<<<<<< HEAD
 <wire x1="15.24" y1="86.853" x2="25.906" y2="89.566" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="25.906" y1="89.566" x2="27.432" y2="91.092" width="1.27" layer="16"/>
+<wire x1="27.432" y1="91.349" x2="27.432" y2="91.092" width="1.27" layer="16"/>
+<wire x1="18.176" y1="75.739" x2="20.001" y2="73.914" width="1.27" layer="16"/>
+<wire x1="32.004" y1="73.914" x2="34.29" y2="76.2" width="1.27" layer="16"/>
+<wire x1="20.001" y1="73.914" x2="32.004" y2="73.914" width="1.27" layer="16"/>
+<wire x1="37.846" y1="76.2" x2="39.116" y2="77.47" width="1.27" layer="16"/>
+<wire x1="39.116" y1="86.36" x2="39.497" y2="86.741" width="1.27" layer="16"/>
+<wire x1="39.497" y1="86.741" x2="39.497" y2="90.678" width="1.27" layer="16"/>
+<wire x1="39.497" y1="90.678" x2="38.826" y2="91.349" width="1.27" layer="16"/>
+<wire x1="38.826" y1="91.349" x2="27.432" y2="91.349" width="1.27" layer="16"/>
+<wire x1="34.29" y1="76.2" x2="37.846" y2="76.2" width="1.27" layer="16"/>
+<wire x1="39.116" y1="77.47" x2="39.116" y2="86.36" width="1.27" layer="16"/>
+>>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </signal>
 <signal name="-SIG2">
 <contactref element="UPP_LC_AMP2" pad="4"/>
 <contactref element="LOADCELL" pad="4"/>
 <contactref element="LOADCELL" pad="6"/>
+<<<<<<< HEAD
 <wire x1="23.366" y1="89.566" x2="20.826" y2="89.566" width="1.27" layer="1"/>
 <wire x1="15.176" y1="78.739" x2="20.826" y2="89.566" width="0" layer="19" extent="1-1"/>
+=======
+<wire x1="20.826" y1="89.566" x2="23.366" y2="89.566" width="1.27" layer="1"/>
+<wire x1="15.176" y1="78.739" x2="15.24" y2="78.675" width="1.27" layer="1"/>
+<wire x1="15.24" y1="78.675" x2="15.24" y2="75.438" width="1.27" layer="1"/>
+<wire x1="15.24" y1="75.438" x2="14.478" y2="74.676" width="1.27" layer="1"/>
+<wire x1="14.478" y1="74.676" x2="2.286" y2="74.676" width="1.27" layer="1"/>
+<wire x1="2.286" y1="74.676" x2="1.651" y2="75.311" width="1.27" layer="1"/>
+<wire x1="1.651" y1="75.311" x2="1.651" y2="90.678" width="1.27" layer="1"/>
+<wire x1="1.651" y1="90.678" x2="2.322" y2="91.349" width="1.27" layer="1"/>
+<wire x1="19.05" y1="91.349" x2="20.826" y2="89.573" width="1.27" layer="1"/>
+<wire x1="20.826" y1="89.573" x2="20.826" y2="89.566" width="1.27" layer="1"/>
+<wire x1="2.322" y1="91.349" x2="19.05" y2="91.349" width="1.27" layer="1"/>
+>>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </signal>
 <signal name="+SIG2">
 <contactref element="UPP_LC_AMP2" pad="3"/>
 <contactref element="R6" pad="2"/>
 <contactref element="R5" pad="1"/>
+<<<<<<< HEAD
 <wire x1="2.715" y1="87.122" x2="3.08" y2="87.487" width="1.27" layer="1"/>
 <wire x1="3.08" y1="87.487" x2="6.986" y2="87.487" width="1.27" layer="1"/>
+=======
+>>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 <wire x1="6.986" y1="87.487" x2="6.858" y2="87.359" width="1.27" layer="1"/>
 <wire x1="6.858" y1="87.359" x2="6.858" y2="80.772" width="1.27" layer="1"/>
 <wire x1="6.858" y1="80.772" x2="8.176" y2="79.454" width="1.27" layer="1"/>
 <wire x1="8.176" y1="79.454" x2="8.176" y2="78.739" width="1.27" layer="1"/>
+<<<<<<< HEAD
+=======
+<wire x1="3.477" y1="87.122" x2="3.842" y2="87.487" width="1.27" layer="1"/>
+<wire x1="3.842" y1="87.487" x2="6.986" y2="87.487" width="1.27" layer="1"/>
+>>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </signal>
 <signal name="+EX2">
 <contactref element="UPP_LC_AMP2" pad="2"/>
 <contactref element="R5" pad="2"/>
 <contactref element="LOADCELL" pad="2"/>
+<<<<<<< HEAD
 <wire x1="5.176" y1="76.739" x2="2.794" y2="79.502" width="1.27" layer="1"/>
 <wire x1="2.794" y1="79.502" x2="2.715" y2="79.502" width="1.27" layer="1"/>
+=======
+>>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 <wire x1="5.176" y1="76.739" x2="5.334" y2="77.278" width="1.27" layer="16"/>
 <wire x1="5.334" y1="77.278" x2="5.334" y2="88.392" width="1.27" layer="16"/>
 <wire x1="5.334" y1="88.392" x2="6.508" y2="89.566" width="1.27" layer="16"/>
 <wire x1="6.508" y1="89.566" x2="18.286" y2="89.566" width="1.27" layer="16"/>
+<<<<<<< HEAD
+=======
+<wire x1="3.477" y1="79.502" x2="3.429" y2="79.454" width="1.27" layer="1"/>
+<wire x1="3.429" y1="79.454" x2="3.429" y2="77.216" width="1.27" layer="1"/>
+<wire x1="3.429" y1="77.216" x2="3.906" y2="76.739" width="1.27" layer="1"/>
+<wire x1="3.906" y1="76.739" x2="5.176" y2="76.739" width="1.27" layer="1"/>
+>>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 </signal>
 <signal name="CH1">
 <contactref element="UPP_LC_AMP1" pad="7"/>
 <contactref element="J2" pad="5"/>
-<<<<<<< HEAD
-<wire x1="38.882" y1="64.107" x2="38.783" y2="64.008" width="1.27" layer="16"/>
-=======
 <wire x1="38.882" y1="63.345" x2="38.783" y2="64.008" width="1.27" layer="16"/>
->>>>>>> bf537f871bf1cf805c95dbc57328143151db4631
 <wire x1="38.783" y1="64.008" x2="36.576" y2="64.008" width="1.27" layer="16"/>
 <wire x1="36.576" y1="64.008" x2="35.052" y2="62.484" width="1.27" layer="16"/>
 <wire x1="35.052" y1="62.484" x2="35.052" y2="14.478" width="1.27" layer="16"/>
@@ -1004,7 +1053,7 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="BATTERSWITCH" pad="2"/>
 <contactref element="BATTERYCONNECTOR" pad="3"/>
-<wire x1="31.814" y1="3.683" x2="48.387" y2="4.276" width="0" layer="19" extent="1-1"/>
+<wire x1="30.798" y1="3.683" x2="40.725" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
