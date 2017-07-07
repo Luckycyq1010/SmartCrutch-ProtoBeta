@@ -162,10 +162,10 @@
 <dimension x1="0" y1="0" x2="44" y2="0" x3="22" y3="-3.81" textsize="1.778" layer="1"/>
 <dimension x1="0" y1="0" x2="0" y2="93" x3="-13.335" y3="46.5" textsize="1.778" layer="1"/>
 <wire x1="0" y1="93" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="-2.564" y1="0.96" x2="42" y2="0.96" width="0.1524" layer="231"/>
-<wire x1="42" y1="0.96" x2="42" y2="91.5" width="0.1524" layer="231"/>
-<wire x1="42" y1="91.5" x2="-2.564" y2="91.5" width="0.1524" layer="231"/>
-<wire x1="-2.564" y1="91.5" x2="-2.564" y2="0.96" width="0.1524" layer="231"/>
+<wire x1="0.484" y1="0.96" x2="43.524" y2="0.96" width="0.1524" layer="231"/>
+<wire x1="43.524" y1="0.96" x2="43.524" y2="92.516" width="0.1524" layer="231"/>
+<wire x1="43.524" y1="92.516" x2="0.484" y2="92.516" width="0.1524" layer="231"/>
+<wire x1="0.484" y1="92.516" x2="0.484" y2="0.96" width="0.1524" layer="231"/>
 <dimension x1="0" y1="0" x2="7.3152" y2="3.429" x3="3.6576" y3="-3.048" textsize="1.778" layer="1" dtype="horizontal"/>
 <dimension x1="6.77" y1="14.42" x2="37.25" y2="4.26" x3="22.01" y3="-7.112" textsize="1.778" layer="1" dtype="horizontal"/>
 </plain>
@@ -2419,11 +2419,6 @@ design rules under a new name.</description>
 <signal name="AMP-DAT">
 <contactref element="LOADCELL_AMP" pad="3"/>
 <contactref element="TEENSY1-12" pad="3"/>
-<wire x1="6.77" y1="19.5" x2="3.868" y2="19.5" width="1.27" layer="1"/>
-<wire x1="3.868" y1="19.5" x2="1.016" y2="19.812" width="1.27" layer="1"/>
-<wire x1="1.016" y1="19.812" x2="0.762" y2="28.448" width="1.27" layer="1"/>
-<wire x1="0.762" y1="28.448" x2="0.762" y2="28.956" width="1.27" layer="1"/>
-<wire x1="0.762" y1="28.956" x2="0.889" y2="30.607" width="1.27" layer="1"/>
 <via x="0.889" y="30.607" extent="1-16" drill="0.35"/>
 <wire x1="0.889" y1="30.607" x2="0.762" y2="39.878" width="1.27" layer="16"/>
 <wire x1="0.762" y1="39.878" x2="4.064" y2="42.164" width="1.27" layer="16"/>
@@ -2432,6 +2427,10 @@ design rules under a new name.</description>
 <wire x1="5.588" y1="54.864" x2="12.192" y2="54.864" width="1.27" layer="16"/>
 <wire x1="12.192" y1="54.864" x2="12.714" y2="54.342" width="1.27" layer="16"/>
 <wire x1="12.714" y1="54.342" x2="12.714" y2="52.587" width="1.27" layer="16"/>
+<wire x1="0.889" y1="30.607" x2="0.889" y2="19.939" width="0.508" layer="1"/>
+<wire x1="0.889" y1="19.939" x2="1.016" y2="19.812" width="0.508" layer="1"/>
+<wire x1="1.016" y1="19.812" x2="6.458" y2="19.812" width="0.508" layer="1"/>
+<wire x1="6.458" y1="19.812" x2="6.77" y2="19.5" width="0.508" layer="1"/>
 </signal>
 <signal name="AMP-CLK">
 <contactref element="LOADCELL_AMP" pad="2"/>
