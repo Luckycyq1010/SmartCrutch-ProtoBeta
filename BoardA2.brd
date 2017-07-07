@@ -168,6 +168,10 @@
 <wire x1="0.484" y1="92.516" x2="0.484" y2="0.96" width="0.1524" layer="231"/>
 <dimension x1="0" y1="0" x2="7.3152" y2="3.429" x3="3.6576" y3="-3.048" textsize="1.778" layer="1" dtype="horizontal"/>
 <dimension x1="6.77" y1="14.42" x2="37.25" y2="4.26" x3="22.01" y3="-7.112" textsize="1.778" layer="1" dtype="horizontal"/>
+<text x="27.432" y="67.056" size="1.4224" layer="122" rot="MR0">Wearable Robotic Systems Lab
+Yongqi Chen 
+Naomi Javitt
+7/7/17</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -2495,6 +2499,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, Eagle supports online libraries. The ids
 of those online libraries will not be understood (or retained)
