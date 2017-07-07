@@ -2924,11 +2924,11 @@ part number 2062-2P from STA</description>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="KIT"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="KIT"/>
 <part name="UPP_LC_AMP1" library="Smartcrutches" deviceset="ICA3H" device=""/>
-<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" value="350ohm"/>
-<part name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" value="350ohm"/>
+<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0207/10" value="350ohm"/>
+<part name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0207/10" value="350ohm"/>
 <part name="UPP_LC_AMP2" library="Smartcrutches" deviceset="ICA3H" device=""/>
-<part name="R5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" value="350hm"/>
-<part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" value="350hm"/>
+<part name="R5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0207/10" value="350hm"/>
+<part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0207/10" value="350hm"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
 <part name="LOADCELL" library="SparkFun-Connectors" deviceset="CONN_04X2" device=""/>
 <part name="BATTERY" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>

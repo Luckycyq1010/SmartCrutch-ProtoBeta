@@ -3024,7 +3024,7 @@ No silk outline, but tDocu layer shows pin location.
 <instance part="UPP_LC_AMP2" gate="G$1" x="78.74" y="15.24"/>
 <instance part="R5" gate="G$1" x="78.74" y="-35.56" rot="R90"/>
 <instance part="R6" gate="G$1" x="78.74" y="-60.96" rot="R90"/>
-<instance part="J2" gate="G$1" x="134.62" y="2.54"/>
+<instance part="J2" gate="G$1" x="88.9" y="53.34"/>
 <instance part="LOADCELL" gate="G$1" x="33.02" y="-48.26"/>
 <instance part="BATTERYCONNECTOR" gate="J$1" x="-30.48" y="50.8"/>
 </instances>
@@ -3080,8 +3080,8 @@ No silk outline, but tDocu layer shows pin location.
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
-<junction x="127" y="5.08"/>
-<label x="127" y="5.08" size="1.016" layer="95" rot="R180" xref="yes"/>
+<junction x="81.28" y="55.88"/>
+<label x="81.28" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -3115,8 +3115,8 @@ No silk outline, but tDocu layer shows pin location.
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="6"/>
-<junction x="142.24" y="0"/>
-<label x="142.24" y="0" size="1.016" layer="95" xref="yes"/>
+<junction x="96.52" y="50.8"/>
+<label x="96.52" y="50.8" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="-15V" class="0">
@@ -3275,8 +3275,8 @@ No silk outline, but tDocu layer shows pin location.
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
-<junction x="127" y="0"/>
-<label x="127" y="0" size="1.016" layer="95" rot="R180" xref="yes"/>
+<junction x="81.28" y="50.8"/>
+<label x="81.28" y="50.8" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CH2" class="0">
@@ -3287,8 +3287,8 @@ No silk outline, but tDocu layer shows pin location.
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="4"/>
-<junction x="142.24" y="2.54"/>
-<label x="142.24" y="2.54" size="1.016" layer="95" xref="yes"/>
+<junction x="96.52" y="53.34"/>
+<label x="96.52" y="53.34" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DC-CTRL" class="0">
@@ -3299,8 +3299,8 @@ No silk outline, but tDocu layer shows pin location.
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<junction x="142.24" y="5.08"/>
-<label x="142.24" y="5.08" size="1.016" layer="95" xref="yes"/>
+<junction x="96.52" y="55.88"/>
+<label x="96.52" y="55.88" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
