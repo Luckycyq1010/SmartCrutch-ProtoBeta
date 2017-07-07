@@ -8843,12 +8843,14 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="ADC-CON" class="0">
 <segment>
-<junction x="-88.9" y="55.88"/>
-<label x="-88.9" y="55.88" size="0.762" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="ADC" gate="G$1" pin="5"/>
 <junction x="-12.7" y="53.34"/>
+<label x="-12.7" y="53.34" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TEENSY1-12" gate="G$1" pin="2"/>
+<junction x="-88.9" y="55.88"/>
+<label x="-88.9" y="55.88" size="0.762" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
