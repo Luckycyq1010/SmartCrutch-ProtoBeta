@@ -159,7 +159,7 @@
 <library name="Smartcrutches">
 <packages>
 <package name="ECS-100X">
-<pad name="1" x="-7.62" y="3.81" drill="0.45" rot="R90"/>
+<pad name="1" x="-7.62" y="3.81" drill="0.35" rot="R90"/>
 <pad name="14" x="-7.62" y="-3.81" drill="0.45" rot="R270"/>
 <pad name="8" x="7.61" y="-3.81" drill="0.45" rot="R90"/>
 <pad name="7" x="7.62" y="3.81" drill="0.45" rot="R180"/>
@@ -197,8 +197,8 @@
 <wire x1="0" y1="-3" x2="0" y2="0" width="0.8128" layer="21"/>
 <wire x1="0" y1="0" x2="23" y2="0" width="0.8128" layer="21"/>
 <wire x1="23" y1="0" x2="23" y2="-3" width="0.8128" layer="21"/>
-<text x="0" y="1" size="1.27" layer="21">&gt;Name</text>
-<text x="0" y="-25" size="1.27" layer="27">&gt;value</text>
+<text x="25.289" y="-5.334" size="1.27" layer="21" rot="R90">&gt;Name</text>
+<text x="-3.029" y="-17.399" size="1.27" layer="27" rot="R270">&gt;value</text>
 <pad name="7" x="0" y="-17.78" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="8" x="0" y="-15.24" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="9" x="0" y="-12.7" drill="1.016" diameter="1.8796" rot="R180"/>
@@ -9218,7 +9218,7 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <part name="ADC" library="Smartcrutches" deviceset="DIL24" device="-3" value="AD7890-10"/>
 <part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" value="0.1 uf"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
-<part name="IMU" library="Smartcrutches" deviceset="IMU" device="" value="TSS-EM/3Space"/>
+<part name="IMU" library="Smartcrutches" deviceset="IMU" device="" value="TSS-EM"/>
 <part name="LOADCELL_AMP" library="Smartcrutches" deviceset="LOADCELLAMP" device="" value="HX711"/>
 <part name="TEENSY1-12" library="SparkFun-Connectors" deviceset="CONN_12" device=""/>
 <part name="TEENSYU" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
@@ -9268,7 +9268,6 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <junction x="2.54" y="53.34"/>
 <junction x="2.54" y="55.88"/>
 <junction x="2.54" y="58.42"/>
-<junction x="2.54" y="60.96"/>
 <label x="2.54" y="55.88" size="1.778" layer="95" xref="yes"/>
 <junction x="2.54" y="50.8"/>
 <pinref part="ADC" gate="G$1" pin="18"/>
@@ -9284,11 +9283,6 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <pinref part="ADC" gate="G$1" pin="12"/>
 <label x="-12.7" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 <junction x="-12.7" y="35.56"/>
-</segment>
-<segment>
-<pinref part="ADC" gate="G$1" pin="2"/>
-<junction x="-12.7" y="60.96"/>
-<label x="-12.7" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="VIN"/>
@@ -9325,6 +9319,11 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <pinref part="J1" gate="G$1" pin="6"/>
 <junction x="43.18" y="66.04"/>
 <label x="43.18" y="66.04" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ADC" gate="G$1" pin="2"/>
+<junction x="-12.7" y="60.96"/>
+<label x="-12.7" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">

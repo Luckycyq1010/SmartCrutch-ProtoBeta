@@ -170,25 +170,25 @@
 <wire x1="25.4" y1="10.16" x2="-25.4" y2="10.16" width="0.254" layer="21"/>
 <text x="-25.273" y="10.541" size="1.27" layer="25">&gt;Name</text>
 <text x="-25.262" y="-31.913" size="1.27" layer="27">&gt;Value</text>
-<pad name="3" x="-22.86" y="2.54" drill="1" shape="square"/>
-<pad name="2" x="-22.86" y="-7.62" drill="1" shape="square"/>
-<pad name="1" x="-22.86" y="-12.7" drill="1" shape="square"/>
-<pad name="4" x="22.86" y="5.08" drill="1" shape="square"/>
-<pad name="5" x="22.86" y="-5.08" drill="1" shape="square"/>
-<pad name="6" x="22.86" y="-15.24" drill="1" shape="square"/>
-<pad name="7" x="22.86" y="-25.4" drill="1" shape="square"/>
+<pad name="3" x="-22.86" y="2.54" drill="1.05"/>
+<pad name="2" x="-22.86" y="-7.62" drill="1.05"/>
+<pad name="1" x="-22.86" y="-12.7" drill="1.05"/>
+<pad name="4" x="22.86" y="5.08" drill="1.05"/>
+<pad name="5" x="22.86" y="-5.08" drill="1.05"/>
+<pad name="6" x="22.86" y="-15.24" drill="1.05"/>
+<pad name="7" x="22.86" y="-25.4" drill="1.05"/>
 </package>
 <package name="ICA3H">
 <circle x="0" y="0" radius="10" width="0.127" layer="21"/>
 <hole x="9" y="0" drill="1"/>
-<pad name="5" x="-5" y="7" drill="1" shape="square"/>
-<pad name="4" x="-8" y="4" drill="1" shape="square"/>
-<pad name="3" x="-8" y="-3" drill="1" shape="square"/>
-<pad name="2" x="-6" y="-6" drill="1" shape="square"/>
-<pad name="1" x="8" y="-4" drill="1" shape="square"/>
-<pad name="7" x="7" y="6" drill="1" shape="square"/>
-<pad name="6" x="4" y="8" drill="1" shape="square"/>
-<pad name="P$1" x="6.35" y="-6.35" drill="1" shape="square"/>
+<pad name="5" x="-5" y="7" drill="1"/>
+<pad name="4" x="-8" y="4" drill="1"/>
+<pad name="3" x="-8" y="-3" drill="1"/>
+<pad name="2" x="-6" y="-6" drill="1"/>
+<pad name="1" x="8" y="-4" drill="1"/>
+<pad name="7" x="7" y="6" drill="1"/>
+<pad name="6" x="4" y="8" drill="1"/>
+<pad name="P$1" x="6.35" y="-6.35" drill="1"/>
 </package>
 </packages>
 <symbols>
@@ -2924,11 +2924,11 @@ part number 2062-2P from STA</description>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="KIT"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="KIT"/>
 <part name="UPP_LC_AMP1" library="Smartcrutches" deviceset="ICA3H" device=""/>
-<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" value="350ohm"/>
-<part name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" value="350ohm"/>
+<part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0207/10" value="350ohm"/>
+<part name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0207/10" value="350ohm"/>
 <part name="UPP_LC_AMP2" library="Smartcrutches" deviceset="ICA3H" device=""/>
-<part name="R5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" value="350hm"/>
-<part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0204/7" value="350hm"/>
+<part name="R5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0207/10" value="350hm"/>
+<part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="0207/10" value="350hm"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
 <part name="LOADCELL" library="SparkFun-Connectors" deviceset="CONN_04X2" device=""/>
 <part name="BATTERY" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>

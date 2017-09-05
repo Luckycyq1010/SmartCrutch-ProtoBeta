@@ -197,8 +197,8 @@
 <wire x1="0" y1="-3" x2="0" y2="0" width="0.8128" layer="21"/>
 <wire x1="0" y1="0" x2="23" y2="0" width="0.8128" layer="21"/>
 <wire x1="23" y1="0" x2="23" y2="-3" width="0.8128" layer="21"/>
-<text x="0" y="1" size="1.27" layer="21">&gt;Name</text>
-<text x="0" y="-25" size="1.27" layer="27">&gt;value</text>
+<text x="25.289" y="-5.334" size="1.27" layer="21" rot="R90">&gt;Name</text>
+<text x="-3.029" y="-17.399" size="1.27" layer="27" rot="R270">&gt;value</text>
 <pad name="7" x="0" y="-17.78" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="8" x="0" y="-15.24" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="9" x="0" y="-12.7" drill="1.016" diameter="1.8796" rot="R180"/>
@@ -9218,7 +9218,7 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <part name="ADC" library="Smartcrutches" deviceset="DIL24" device="-3" value="AD7890-10"/>
 <part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="5/2.5" value="0.1 uf"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_03X2" device="FEMALE" value="FEMALE 2x3"/>
-<part name="IMU" library="Smartcrutches" deviceset="IMU" device="" value="TSS-EM/3Space"/>
+<part name="IMU" library="Smartcrutches" deviceset="IMU" device="" value="TSS-EM"/>
 <part name="LOADCELL_AMP" library="Smartcrutches" deviceset="LOADCELLAMP" device="" value="HX711"/>
 <part name="TEENSY1-12" library="SparkFun-Connectors" deviceset="CONN_12" device=""/>
 <part name="TEENSYU" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
@@ -9246,7 +9246,7 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <instance part="R1" gate="G$1" x="63.5" y="78.74"/>
 <instance part="R2" gate="G$1" x="71.12" y="71.12" rot="R90"/>
 <instance part="T1" gate="G$1" x="76.2" y="78.74"/>
-<instance part="D1" gate="G$1" x="78.74" y="91.44"/>
+<instance part="D1" gate="G$1" x="78.74" y="91.44" rot="R180"/>
 <instance part="C2" gate="G$1" x="86.36" y="88.9"/>
 <instance part="MOTOR" gate="G$1" x="60.96" y="93.98"/>
 <instance part="LOWERLOADCELL" gate="G$1" x="-20.32" y="104.14" rot="MR0"/>
@@ -9274,6 +9274,9 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <pinref part="ADC" gate="G$1" pin="18"/>
 <junction x="2.54" y="48.26"/>
 <wire x1="2.54" y1="50.8" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="ADC" gate="G$1" pin="2"/>
+<wire x1="-12.7" y1="60.96" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-12.7" y="60.96"/>
 </segment>
 <segment>
 <pinref part="OSCILLATOR" gate="G$1" pin="+5V"/>
@@ -9284,11 +9287,6 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <pinref part="ADC" gate="G$1" pin="12"/>
 <label x="-12.7" y="35.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 <junction x="-12.7" y="35.56"/>
-</segment>
-<segment>
-<pinref part="ADC" gate="G$1" pin="2"/>
-<junction x="-12.7" y="60.96"/>
-<label x="-12.7" y="60.96" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="VIN"/>
@@ -9304,17 +9302,17 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <wire x1="-68.58" y1="109.22" x2="-68.58" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="78.74" y1="93.98" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="96.52" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
 <junction x="86.36" y="96.52"/>
 <wire x1="86.36" y1="96.52" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
 <label x="86.36" y="99.06" size="1.778" layer="95" rot="R90" xref="yes"/>
-<junction x="78.74" y="96.52"/>
 <pinref part="MOTOR" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="78.74" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="93.98" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<junction x="78.74" y="96.52"/>
 </segment>
 <segment>
 <pinref part="TEENSYU" gate="J$1" pin="1"/>
@@ -9473,13 +9471,13 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <pinref part="T1" gate="G$1" pin="C"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="83.82" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="78.74" y1="88.9" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
 <junction x="78.74" y="83.82"/>
 <wire x1="78.74" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="83.82" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="MOTOR" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="93.98" x2="68.58" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="78.74" y1="83.82" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -9577,35 +9575,35 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <label x="43.18" y="68.58" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="E+" class="0">
+<net name="AMP-E+" class="0">
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="E+"/>
 <pinref part="LOWERLOADCELL" gate="G$1" pin="5"/>
 <wire x1="-35.56" y1="109.22" x2="-27.94" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="AMP-E-" class="0">
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="E-"/>
 <pinref part="LOWERLOADCELL" gate="G$1" pin="4"/>
 <wire x1="-35.56" y1="106.68" x2="-27.94" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="AMP-A-" class="0">
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="A-"/>
 <pinref part="LOWERLOADCELL" gate="G$1" pin="3"/>
 <wire x1="-35.56" y1="104.14" x2="-27.94" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="AMP-A+" class="0">
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="A+"/>
 <pinref part="LOWERLOADCELL" gate="G$1" pin="2"/>
 <wire x1="-35.56" y1="101.6" x2="-27.94" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="AMP-SD" class="0">
 <segment>
 <pinref part="LOADCELL_AMP" gate="G$1" pin="SD"/>
 <pinref part="LOWERLOADCELL" gate="G$1" pin="1"/>

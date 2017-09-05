@@ -747,8 +747,8 @@
 <wire x1="0" y1="-3" x2="0" y2="0" width="0.8128" layer="21"/>
 <wire x1="0" y1="0" x2="23" y2="0" width="0.8128" layer="21"/>
 <wire x1="23" y1="0" x2="23" y2="-3" width="0.8128" layer="21"/>
-<text x="0" y="1" size="1.27" layer="21">&gt;Name</text>
-<text x="0" y="-25" size="1.27" layer="27">&gt;value</text>
+<text x="25.289" y="-5.334" size="1.27" layer="21" rot="R90">&gt;Name</text>
+<text x="-3.029" y="-17.399" size="1.27" layer="27" rot="R270">&gt;value</text>
 <pad name="7" x="0" y="-17.78" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="8" x="0" y="-15.24" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="9" x="0" y="-12.7" drill="1.016" diameter="1.8796" rot="R180"/>
@@ -795,7 +795,7 @@
 <pad name="7" x="22.86" y="-25.4" drill="1.05"/>
 </package>
 <package name="ECS-100X">
-<pad name="1" x="-7.62" y="3.81" drill="0.45" rot="R90"/>
+<pad name="1" x="-7.62" y="3.81" drill="0.35" rot="R90"/>
 <pad name="14" x="-7.62" y="-3.81" drill="0.45" rot="R270"/>
 <pad name="8" x="7.61" y="-3.81" drill="0.45" rot="R90"/>
 <pad name="7" x="7.62" y="3.81" drill="0.45" rot="R180"/>

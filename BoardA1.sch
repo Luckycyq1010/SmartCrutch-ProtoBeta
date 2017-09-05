@@ -284,7 +284,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
 <pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
 <pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
-<text x="-3.81" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.905" y="-6.858" size="0.762" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="AYZ0202">
@@ -3724,7 +3724,7 @@ naming: grid - package width</description>
 <parts>
 <part name="DC_DC_CONVERTER" library="Smartcrutches" deviceset="DC-DC" device=""/>
 <part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2"/>
-<part name="BATTERSWITCH" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH"/>
+<part name="BAT_SW" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH"/>
 <part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2"/>
 <part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2"/>
 <part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2"/>
@@ -3745,13 +3745,13 @@ naming: grid - package width</description>
 <instances>
 <instance part="DC_DC_CONVERTER" gate="G$1" x="17.78" y="50.8"/>
 <instance part="C1" gate="G$1" x="-2.54" y="50.8" rot="R270"/>
-<instance part="BATTERSWITCH" gate="1" x="-12.7" y="53.34"/>
+<instance part="BAT_SW" gate="1" x="-12.7" y="53.34"/>
 <instance part="C2" gate="G$1" x="35.56" y="50.8" rot="R180"/>
 <instance part="C3" gate="G$1" x="43.18" y="50.8" rot="R180"/>
 <instance part="C4" gate="G$1" x="38.1" y="43.18" rot="R180"/>
 <instance part="UPP_LC_AMP1" gate="G$1" x="2.54" y="10.16"/>
 <instance part="R1" gate="G$1" x="-10.16" y="-60.96" rot="R270"/>
-<instance part="R3" gate="G$1" x="-10.16" y="-35.56" rot="R270"/>
+<instance part="R3" gate="G$1" x="-10.16" y="-35.56" rot="R90"/>
 <instance part="UPP_LC_AMP2" gate="G$1" x="78.74" y="15.24"/>
 <instance part="R5" gate="G$1" x="78.74" y="-35.56" rot="R90"/>
 <instance part="R6" gate="G$1" x="78.74" y="-60.96" rot="R90"/>
@@ -3771,7 +3771,7 @@ naming: grid - package width</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="BATTERSWITCH" gate="1" pin="O"/>
+<pinref part="BAT_SW" gate="1" pin="O"/>
 <pinref part="DC_DC_CONVERTER" gate="G$1" pin="VIN"/>
 <wire x1="-7.62" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 </segment>
@@ -3877,14 +3877,14 @@ naming: grid - package width</description>
 <label x="25.4" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-10.16" y1="-30.48" x2="-10.16" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-27.94" x2="0" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="0" y1="-27.94" x2="0" y2="-22.86" width="0.1524" layer="91"/>
 <label x="0" y="-22.86" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="LOADCELL" gate="G$1" pin="1"/>
 <wire x1="0" y1="-27.94" x2="25.4" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-27.94" x2="25.4" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="-27.94" x2="-10.16" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-SIG1" class="0">
@@ -3909,12 +3909,13 @@ naming: grid - package width</description>
 <label x="27.94" y="7.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-10.16" y1="-40.64" x2="-10.16" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="-48.26" x2="-10.16" y2="-55.88" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-48.26" x2="-15.24" y2="-48.26" width="0.1524" layer="91"/>
 <label x="-15.24" y="-48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="-48.26" x2="-10.16" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="-10.16" y="-48.26"/>
 </segment>
 </net>
 <net name="+EX1" class="0">
@@ -4038,7 +4039,7 @@ naming: grid - package width</description>
 <segment>
 <pinref part="BATTERY" gate="G$1" pin="2"/>
 <junction x="-22.86" y="50.8"/>
-<pinref part="BATTERSWITCH" gate="1" pin="P"/>
+<pinref part="BAT_SW" gate="1" pin="P"/>
 <wire x1="-15.24" y1="53.34" x2="-22.86" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="50.8" x2="-22.86" y2="53.34" width="0.1524" layer="91"/>
 </segment>
